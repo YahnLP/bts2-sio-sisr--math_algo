@@ -1,0 +1,8 @@
+title: "Phase 1 – Suites numériques"
+nav:
+  - README.md
+  - S01-suites-generalites
+  - S02-suites-arithmetiques
+  - S03-suites-geometriques
+  - S04-sommes-applications
+  - S05-suites-recurrentes-limites
