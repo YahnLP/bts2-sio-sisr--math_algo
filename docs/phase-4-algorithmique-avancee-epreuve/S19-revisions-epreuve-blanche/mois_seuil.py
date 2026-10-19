@@ -1,0 +1,3 @@
+def mois_seuil(u0, taux, seuil):
+    """Plus petit n tel que u_n > seuil."""
+    ...

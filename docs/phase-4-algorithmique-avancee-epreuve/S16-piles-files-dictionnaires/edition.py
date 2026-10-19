@@ -1,0 +1,3 @@
+def edition(ops):
+    """Etat final apres ajouts et annulations (pile)."""
+    ...

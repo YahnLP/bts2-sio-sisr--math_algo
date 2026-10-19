@@ -219,4 +219,14 @@ DATA = [
 ("Tri par insertion", None, "insertion sort", "Tri qui insère chaque élément à sa place dans la partie déjà triée.", "A2 · S14"),
 ("Force brute", None, "brute force", "Méthode qui essaie toutes les possibilités une à une.", "A2 · S15"),
 ("Voyageur de commerce", None, "travelling salesman problem", "Problème de trouver la plus courte tournée passant par tous les sites ; le nombre d'ordres possibles explose.", "A2 · S15"),
+# --- A2 : phase 4
+("Pile", None, "stack", "Structure où le dernier élément ajouté est le premier retiré (LIFO).", "A2 · S16"),
+("File", None, "queue", "Structure où le premier élément ajouté est le premier retiré (FIFO).", "A2 · S16"),
+("Tourniquet", None, "round robin", "Ordonnancement où chaque tâche s'exécute à tour de rôle pendant un temps limité, avec une file.", "A2 · S16"),
+("Parcours en largeur", "BFS", "breadth-first search", "Parcours d'un graphe qui visite les sommets par nombre de liaisons croissant, avec une file.", "A2 · S17"),
+("Graphe pondéré", None, "weighted graph", "Graphe dont les liaisons portent un nombre (poids), par exemple une latence.", "A2 · S17"),
+("Latence", None, "latency", "Délai de transmission d'un message sur une liaison, souvent en millisecondes.", "A2 · S17"),
+("Tas", None, "heap", "Structure qui donne rapidement le plus petit élément ; sert à Dijkstra (module heapq).", "A2 · S17"),
+("Décomposition", None, "decomposition", "Découpage d'un problème en petites fonctions, chacune avec un rôle précis.", "A2 · S18"),
+("Sujet blanc", None, "mock exam", "Sujet d'entraînement passé en conditions d'épreuve, mais sans valeur d'examen.", "A2 · S19"),
 ]

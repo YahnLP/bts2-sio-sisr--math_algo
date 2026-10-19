@@ -1,0 +1,5 @@
+assert tourniquet([5, 2, 4], 2) == [1, 2, 0]
+assert tourniquet([3], 5) == [0]
+assert tourniquet([1, 1, 1], 1) == [0, 1, 2]
+assert tourniquet([], 2) == []
+assert tourniquet([4, 1], 10) == [0, 1]

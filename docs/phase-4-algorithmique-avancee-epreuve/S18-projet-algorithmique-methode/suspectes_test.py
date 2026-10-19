@@ -1,0 +1,5 @@
+assert suspectes(["10.0.0.1;OK", "10.0.0.2;ECHEC", "10.0.0.2;ECHEC", "10.0.0.3;ECHEC", "10.0.0.2;ECHEC", "10.0.0.1;ECHEC"], 2) == ["10.0.0.2"]
+assert suspectes(["10.0.0.1;OK", "10.0.0.2;ECHEC", "10.0.0.2;ECHEC", "10.0.0.3;ECHEC", "10.0.0.2;ECHEC", "10.0.0.1;ECHEC"], 1) == ["10.0.0.1", "10.0.0.2", "10.0.0.3"]
+assert suspectes(["10.0.0.1;OK", "10.0.0.2;ECHEC", "10.0.0.2;ECHEC", "10.0.0.3;ECHEC", "10.0.0.2;ECHEC", "10.0.0.1;ECHEC"], 4) == []
+assert suspectes([], 1) == []
+assert suspectes(["a;OK"], 1) == []

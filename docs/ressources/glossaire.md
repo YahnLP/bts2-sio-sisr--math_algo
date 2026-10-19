@@ -59,6 +59,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Date au plus tard** |  | *latest start* | Date la plus éloignée à laquelle une tâche peut commencer sans retarder le projet. | A1 · S17 |
 | **Date au plus tôt** |  | *earliest start* | Date la plus proche à laquelle une tâche peut commencer. | A1 · S17 |
 | **Débogage** |  | *debugging* | Recherche et correction des erreurs d'un programme. | A1 · S18 |
+| **Décomposition** |  | *decomposition* | Découpage d'un problème en petites fonctions, chacune avec un rôle précis. | A2 · S18 |
 | **Décomposition en facteurs premiers** |  | *prime factorization* | Écriture d'un entier comme produit de nombres premiers ; elle est unique à l'ordre près. | A1 · S06 |
 | **Demi-additionneur** |  | *half adder* | Circuit qui additionne deux bits : somme \(a \oplus b\), retenue \(a \cdot b\). | A1 · S10 |
 | **Dépassement de capacité** |  | *overflow* | Résultat qui ne tient pas dans le nombre de bits disponibles. | A1 · S02 |
@@ -76,6 +77,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Erreur d'arrondi** |  | *rounding error* | Écart entre un nombre et sa valeur arrondie. | A1 · S02 |
 | **Exponentiation rapide** |  | *fast exponentiation* | Calcul de \(x^n\) en élevant au carré la moitié de la puissance. | A2 · S09 |
 | **Fermeture transitive** |  | *transitive closure* | Graphe contenant un arc \(i \to j\) chaque fois qu'il existe un chemin de \(i\) à \(j\). | A1 · S16 |
+| **File** |  | *queue* | Structure où le premier élément ajouté est le premier retiré (FIFO). | A2 · S16 |
 | **Fonction** |  | *function* | Bloc de code nommé qui reçoit des paramètres et retourne un résultat. | A1 · S12 |
 | **Fonction de hachage** |  | *hash function* | Application qui associe à une donnée un petit nombre ; des collisions sont inévitables. | A1 · S11 |
 | **Force brute** |  | *brute force* | Méthode qui essaie toutes les possibilités une à une. | A2 · S15 |
@@ -83,6 +85,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Fraction** |  | *fraction* | Nombre rationnel exact (`Fraction` en Python), qui évite les arrondis. | A1 · S14 |
 | **Garde-fou** |  | *safeguard* | Limite du nombre d'itérations qui empêche une boucle de ne jamais s'arrêter. | A2 · S05 |
 | **Graphe orienté** |  | *directed graph* | Ensemble de sommets reliés par des arcs. | A1 · S16 |
+| **Graphe pondéré** |  | *weighted graph* | Graphe dont les liaisons portent un nombre (poids), par exemple une latence. | A2 · S17 |
 | **Graphe valué** |  | *weighted graph* | Graphe dont chaque arc porte un nombre. | A1 · S17 |
 | **Hexadécimal** |  | *hexadecimal* | Numération en base 16 : chiffres 0 à 9 puis A à F (A = 10, … F = 15). | A1 · S01 |
 | **Image réciproque** |  | *preimage* | Ensemble des éléments de départ dont l'image est dans une partie donnée. | A1 · S11 |
@@ -96,6 +99,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Itération** |  | *iteration* | Un passage dans une boucle. | A1 · S04 |
 | **Jeu de tests** |  | *test suite* | Ensemble de cas, avec le résultat attendu, qui permet de contrôler une fonction. | A1 · S18 |
 | **Kibioctet / Mébioctet** |  | *kibibyte / mebibyte* | 1 024 octets (\(2^{10}\)) / 1 048 576 octets (\(2^{20}\)). | A1 · S02 |
+| **Latence** |  | *latency* | Délai de transmission d'un message sur une liaison, souvent en millisecondes. | A2 · S17 |
 | **Limite d'une suite** |  | *limit of a sequence* | Valeur dont les termes se rapprochent indéfiniment, ou \(\pm\infty\). | A2 · S05 |
 | **Lois de De Morgan** |  | *De Morgan's laws* | \(\neg(p \wedge q) \equiv \neg p \vee \neg q\) et \(\neg(p \vee q) \equiv \neg p \wedge \neg q\). | A1 · S08 |
 | **Marge certaine** |  | *safe float* | Retard possible même si tous les prédécesseurs finissent au plus tard. | A1 · S17 |
@@ -132,10 +136,12 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Ou exclusif** |  | *exclusive or, XOR* | Vrai quand un seul des deux opérandes est vrai. | A1 · S08 |
 | **Palindrome** |  | *palindrome* | Mot qui se lit de la même façon dans les deux sens. | A2 · S08 |
 | **Paramètre** |  | *parameter* | Variable d'entrée d'une fonction. | A1 · S12 |
+| **Parcours en largeur** | BFS | *breadth-first search* | Parcours d'un graphe qui visite les sommets par nombre de liaisons croissant, avec une file. | A2 · S17 |
 | **Parcours en profondeur** | DFS | *depth-first search* | Parcours d'un graphe qui suit un chemin jusqu'au bout avant de revenir en arrière. | A2 · S10 |
 | **Partie (sous-ensemble)** |  | *subset* | Ensemble dont tous les éléments appartiennent à un autre ensemble. | A1 · S09 |
 | **Partie entière** |  | *integer part* | Plus grand entier inférieur ou égal à un nombre. | A1 · S02 |
 | **Passerelle** |  | *gateway* | Routeur par lequel passent les paquets destinés à un autre réseau. | A1 · S10 |
+| **Pile** |  | *stack* | Structure où le dernier élément ajouté est le premier retiré (LIFO). | A2 · S16 |
 | **Pile d'appels** |  | *call stack* | Zone de mémoire qui garde les appels de fonction en attente, un cadre par appel. | A2 · S07 |
 | **Pire cas** |  | *worst case* | Donnée de taille fixée pour laquelle l'algorithme coûte le plus d'opérations. | A2 · S12 |
 | **Pivot** |  | *pivot* | Coefficient qu'on ramène à 1 pour éliminer les autres de sa colonne. | A1 · S14 |
@@ -178,6 +184,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Suite de Fibonacci** |  | *Fibonacci sequence* | Suite \(F_0 = 0, F_1 = 1, F_{n} = F_{n-1} + F_{n-2}\). | A1 · S13 |
 | **Suite géométrique** |  | *geometric sequence* | Suite où l'on multiplie toujours par le même nombre : \(u_{n+1} = q\,u_n\). | A2 · S03 |
 | **Suite numérique** |  | *sequence* | Liste de nombres indexée par les entiers : un terme \(u_n\) pour chaque rang \(n\). | A2 · S01 |
+| **Sujet blanc** |  | *mock exam* | Sujet d'entraînement passé en conditions d'épreuve, mais sans valeur d'examen. | A2 · S19 |
 | **Surjective** |  | *surjective* | Tout élément d'arrivée a au moins un antécédent. | A1 · S11 |
 | **Symétrique** |  | *symmetric* | Si \(x\) est lié à \(y\), alors \(y\) est lié à \(x\). | A1 · S11 |
 | **Système de Cramer** |  | *Cramer system* | Système linéaire \(AX = B\) dont la matrice est inversible : solution unique \(X = A^{-1}B\). | A1 · S14 |
@@ -187,9 +194,11 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Tableau d'amortissement** |  | *amortization schedule* | Tableau qui détaille, mois par mois, intérêts, amortissement et capital restant dû. | A2 · S04 |
 | **Tableau de Karnaugh** |  | *Karnaugh map* | Grille qui range une table de vérité pour simplifier une expression par regroupements. | A1 · S10 |
 | **Tâche critique** |  | *critical task* | Tâche de marge totale nulle. | A1 · S17 |
+| **Tas** |  | *heap* | Structure qui donne rapidement le plus petit élément ; sert à Dijkstra (module heapq). | A2 · S17 |
 | **Tautologie** |  | *tautology* | Expression toujours vraie. | A1 · S08 |
 | **Terme** |  | *term* | Nombre \(u_n\) d'une suite associé au rang \(n\). | A2 · S01 |
 | **Terminaison** |  | *termination* | Garantie qu'un algorithme s'arrête. | A1 · S18 |
+| **Tourniquet** |  | *round robin* | Ordonnancement où chaque tâche s'exécute à tour de rôle pendant un temps limité, avec une file. | A2 · S16 |
 | **Trace** |  | *trace* | Tableau des valeurs des variables à chaque étape d'un algorithme. | A1 · S04 |
 | **Tranche** |  | *slice* | Partie d'une chaîne ou d'une liste, `s[a:b]` (borne b exclue). | A1 · S12 |
 | **Transitive** |  | *transitive* | Si \(x\) est lié à \(y\) et \(y\) à \(z\), alors \(x\) est lié à \(z\). | A1 · S11 |

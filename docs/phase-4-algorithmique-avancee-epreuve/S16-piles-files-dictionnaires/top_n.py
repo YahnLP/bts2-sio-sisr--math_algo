@@ -1,0 +1,3 @@
+def top_n(compte, n):
+    """Les n couples (cle, nombre) les plus frequents."""
+    ...

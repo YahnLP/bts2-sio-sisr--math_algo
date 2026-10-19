@@ -1,0 +1,5 @@
+assert edition(["a", "b", "ANNULE", "c"]) == ["a", "c"]
+assert edition([]) == []
+assert edition(["ANNULE"]) == []
+assert edition(["a", "ANNULE", "ANNULE", "b"]) == ["b"]
+assert edition(["x", "y"]) == ["x", "y"]
