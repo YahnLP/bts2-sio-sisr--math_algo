@@ -1,0 +1,3 @@
+def parentheses_ok(s):
+    """True si (), [], {} sont bien formes (pile)."""
+    ...

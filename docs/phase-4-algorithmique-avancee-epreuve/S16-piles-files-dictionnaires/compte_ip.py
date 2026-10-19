@@ -1,0 +1,3 @@
+def compte_ip(lignes):
+    """Dictionnaire adresse -> nombre d'occurrences."""
+    ...

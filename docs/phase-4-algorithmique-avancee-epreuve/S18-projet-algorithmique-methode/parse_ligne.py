@@ -1,0 +1,3 @@
+def parse_ligne(ligne):
+    """(adresse, statut) d'une ligne 'adresse;statut'."""
+    ...

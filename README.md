@@ -22,7 +22,7 @@ Auteur : **Yahn LE PRETTRE** – Formateur. Licence **CC BY-NC-SA 4.0** (voir `L
 | S01 à S05 (phase 1) | Rédigées (fiche, cours, exercices, TP Python, aide-mémoire, corrigé) ; **à valider** |
 | S06 à S10 (phase 2) | Rédigées (fiche, cours, exercices, TP Python, aide-mémoire, corrigé) ; **à valider** |
 | S11 à S15 (phase 3) | Rédigées (fiche, cours, exercices, TP Python, aide-mémoire, corrigé) ; **à valider** |
-| S16 à S19 | Fiche de séance (objectifs) ; le contenu est rédigé phase par phase |
+| S16 à S19 (phase 4) | Rédigées (fiche, cours, exercices, TP Python, aide-mémoire, corrigé) ; S19 : sujet blanc de l'auteur avec barème ; **à valider** |
 
 ## Travailler en local
 

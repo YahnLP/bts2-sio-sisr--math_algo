@@ -1,0 +1,3 @@
+def appels_fib(n):
+    """Nombre d'appels C(n) de la fonction fib naive."""
+    ...

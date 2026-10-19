@@ -1,0 +1,3 @@
+def rafale(lignes, ip, k):
+    """True si ip a au moins k echecs consecutifs."""
+    ...

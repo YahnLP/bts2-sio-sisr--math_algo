@@ -1,0 +1,3 @@
+def rapport(lignes, seuil):
+    """Lignes 'adresse : n' triees par n decroissant puis adresse."""
+    ...
