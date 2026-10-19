@@ -1,0 +1,3 @@
+def est_palindrome(s):
+    """True si s est un palindrome, de facon recursive."""
+    ...

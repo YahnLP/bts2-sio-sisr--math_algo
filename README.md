@@ -20,7 +20,8 @@ Auteur : **Yahn LE PRETTRE** – Formateur. Licence **CC BY-NC-SA 4.0** (voir `L
 | Séances | État |
 |---|---|
 | S01 à S05 (phase 1) | Rédigées (fiche, cours, exercices, TP Python, aide-mémoire, corrigé) ; **à valider** |
-| S06 à S19 | Fiche de séance (objectifs) ; le contenu est rédigé phase par phase |
+| S06 à S10 (phase 2) | Rédigées (fiche, cours, exercices, TP Python, aide-mémoire, corrigé) ; **à valider** |
+| S11 à S19 | Fiche de séance (objectifs) ; le contenu est rédigé phase par phase |
 
 ## Travailler en local
 

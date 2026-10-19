@@ -1,0 +1,3 @@
+def dfs(g, sommet, visites=None):
+    """Sommets dans l'ordre d'un parcours en profondeur depuis `sommet`."""
+    ...

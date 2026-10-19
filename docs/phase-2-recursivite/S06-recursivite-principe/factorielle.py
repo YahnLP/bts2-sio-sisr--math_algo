@@ -1,0 +1,3 @@
+def factorielle(n):
+    """n! pour n >= 0, de facon recursive."""
+    ...

@@ -1,0 +1,3 @@
+def profondeur(a):
+    """0 pour un fichier ; 1 + max des profondeurs pour un dossier (1 si vide)."""
+    ...

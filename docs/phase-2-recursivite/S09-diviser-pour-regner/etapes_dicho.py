@@ -1,0 +1,3 @@
+def etapes_dicho(L, x):
+    """Nombre d'elements examines par la dichotomie."""
+    ...

@@ -1,0 +1,3 @@
+def fib_iter(n):
+    """Fibonacci, version iterative."""
+    ...

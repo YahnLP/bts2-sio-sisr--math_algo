@@ -1,3 +1,7 @@
 title: "S07 – Récursivité, suites et pile d'appels"
 nav:
   - README.md
+  - 01-cours.md
+  - 02-exercices.md
+  - 03-tp-python.md
+  - 04-aide-memoire.md

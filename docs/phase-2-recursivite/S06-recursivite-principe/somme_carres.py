@@ -1,0 +1,3 @@
+def somme_carres(n):
+    """1^2 + ... + n^2, de facon recursive."""
+    ...

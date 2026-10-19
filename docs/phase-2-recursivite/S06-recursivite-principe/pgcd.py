@@ -1,0 +1,3 @@
+def pgcd(a, b):
+    """PGCD par l'algorithme d'Euclide, de facon recursive."""
+    ...

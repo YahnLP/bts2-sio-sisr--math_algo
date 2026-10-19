@@ -1,0 +1,3 @@
+def fib_memo(n, cache=None):
+    """Fibonacci recursif avec memoisation (dictionnaire)."""
+    ...

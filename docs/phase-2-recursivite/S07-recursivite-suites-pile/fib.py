@@ -1,0 +1,3 @@
+def fib(n):
+    """Fibonacci, version recursive naive."""
+    ...

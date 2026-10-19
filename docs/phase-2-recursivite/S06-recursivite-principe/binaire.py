@@ -1,0 +1,3 @@
+def binaire(n):
+    """Ecriture binaire de n (chaine), de facon recursive."""
+    ...

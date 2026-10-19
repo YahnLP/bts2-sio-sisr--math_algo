@@ -1,0 +1,3 @@
+def compte(L, x):
+    """Nombre d'occurrences de x dans L, de facon recursive."""
+    ...

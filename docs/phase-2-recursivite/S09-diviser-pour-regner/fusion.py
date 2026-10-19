@@ -1,0 +1,3 @@
+def fusion(A, B):
+    """Fusionne deux listes triees en une liste triee."""
+    ...

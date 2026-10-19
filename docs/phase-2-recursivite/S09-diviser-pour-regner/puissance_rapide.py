@@ -1,0 +1,3 @@
+def puissance_rapide(x, n):
+    """x puissance n par exponentiation rapide (recursive)."""
+    ...

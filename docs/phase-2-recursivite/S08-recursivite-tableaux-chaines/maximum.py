@@ -1,0 +1,3 @@
+def maximum(L):
+    """Maximum de la liste non vide L, de facon recursive."""
+    ...

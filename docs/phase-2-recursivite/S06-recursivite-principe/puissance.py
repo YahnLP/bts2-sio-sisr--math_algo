@@ -1,0 +1,3 @@
+def puissance(x, n):
+    """x puissance n (n >= 0), de facon recursive, sans **."""
+    ...

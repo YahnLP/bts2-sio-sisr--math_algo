@@ -1,0 +1,3 @@
+def chemins(a, prefixe=""):
+    """Liste des chemins de tous les fichiers d'un dossier a."""
+    ...

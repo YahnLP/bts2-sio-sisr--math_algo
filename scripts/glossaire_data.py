@@ -196,4 +196,17 @@ DATA = [
 ("Point fixe", None, "fixed point", "Valeur \\(L\\) telle que \\(L = f(L)\\) : si la suite l'atteint, elle n'en bouge plus.", "A2 · S05"),
 ("Algorithme de seuil", None, "threshold algorithm", "Boucle qui cherche le premier rang où une suite atteint un seuil donné.", "A2 · S05"),
 ("Garde-fou", None, "safeguard", "Limite du nombre d'itérations qui empêche une boucle de ne jamais s'arrêter.", "A2 · S05"),
+# --- A2 : phase 2
+("Récursivité", None, "recursion", "Technique où une fonction s'appelle elle-même sur un problème plus petit.", "A2 · S06"),
+("Cas de base", None, "base case", "Cas d'une fonction récursive dont le résultat est connu directement et qui arrête les appels.", "A2 · S06"),
+("Cas récursif", None, "recursive case", "Cas où la fonction se ramène à un appel sur un problème plus petit.", "A2 · S06"),
+("Pile d'appels", None, "call stack", "Zone de mémoire qui garde les appels de fonction en attente, un cadre par appel.", "A2 · S07"),
+("Mémoïsation", None, "memoization", "Mémorisation des résultats déjà calculés pour ne pas les recalculer.", "A2 · S07"),
+("Palindrome", None, "palindrome", "Mot qui se lit de la même façon dans les deux sens.", "A2 · S08"),
+("Diviser pour régner", None, "divide and conquer", "Méthode qui coupe un problème en sous-problèmes plus petits, les résout, puis combine les résultats.", "A2 · S09"),
+("Tri fusion", None, "merge sort", "Tri qui trie chaque moitié d'une liste puis fusionne les deux listes triées.", "A2 · S09"),
+("Exponentiation rapide", None, "fast exponentiation", "Calcul de \\(x^n\\) en élevant au carré la moitié de la puissance.", "A2 · S09"),
+("Arborescence", None, "tree structure", "Structure en dossiers et sous-dossiers, ou plus généralement en arbre.", "A2 · S10"),
+("Parcours en profondeur", "DFS", "depth-first search", "Parcours d'un graphe qui suit un chemin jusqu'au bout avant de revenir en arrière.", "A2 · S10"),
+("Sommet atteignable", None, "reachable vertex", "Sommet auquel on peut arriver en suivant des liens depuis un sommet de départ.", "A2 · S10"),
 ]

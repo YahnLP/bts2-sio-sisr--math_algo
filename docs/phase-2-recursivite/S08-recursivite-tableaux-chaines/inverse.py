@@ -1,0 +1,3 @@
+def inverse(s):
+    """Chaine s a l'envers, de facon recursive."""
+    ...
