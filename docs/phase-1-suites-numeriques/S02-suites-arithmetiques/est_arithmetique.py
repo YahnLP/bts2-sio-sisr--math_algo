@@ -1,0 +1,3 @@
+def est_arithmetique(liste):
+    """True si les differences consecutives sont toutes egales."""
+    ...

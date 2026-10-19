@@ -1,0 +1,3 @@
+def mois_stockage_plein(u0, taux, ajout, capacite):
+    """Premier mois n avec u_n >= capacite, u_{n+1} = u_n*(1+taux/100) + ajout."""
+    ...

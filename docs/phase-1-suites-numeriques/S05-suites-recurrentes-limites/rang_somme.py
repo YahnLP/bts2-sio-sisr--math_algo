@@ -1,0 +1,3 @@
+def rang_somme(seuil):
+    """Plus petit n >= 0 avec 1 + 2 + ... + n >= seuil."""
+    ...

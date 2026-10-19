@@ -1,0 +1,3 @@
+def rang_stable(f, u0, eps, nmax):
+    """Premier n <= nmax avec |u_{n+1} - u_n| < eps, sinon None."""
+    ...

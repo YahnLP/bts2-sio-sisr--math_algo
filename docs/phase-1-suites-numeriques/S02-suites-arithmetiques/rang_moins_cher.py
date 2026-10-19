@@ -1,0 +1,3 @@
+def rang_moins_cher(a0, ra, b0, rb):
+    """Plus petit n >= 0 avec b0 + rb*n < a0 + ra*n (rb < ra)."""
+    ...

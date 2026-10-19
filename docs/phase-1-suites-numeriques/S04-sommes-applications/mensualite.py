@@ -1,0 +1,3 @@
+def mensualite(capital, taux, n):
+    """Mensualite constante (taux mensuel en %), arrondie a 2 decimales."""
+    ...

@@ -1,0 +1,3 @@
+def terme_explicite(n):
+    """Renvoie u_n = 3n^2 - n + 2."""
+    ...

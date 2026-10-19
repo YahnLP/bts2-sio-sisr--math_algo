@@ -1,0 +1,4 @@
+mkdocs-material>=9.5,<10
+mkdocs-awesome-pages-plugin
+mkdocs-callouts
+mkdocs-macros-plugin

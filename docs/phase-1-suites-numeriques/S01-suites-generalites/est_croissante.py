@@ -1,0 +1,3 @@
+def est_croissante(liste):
+    """True si liste[i+1] >= liste[i] pour tout i."""
+    ...

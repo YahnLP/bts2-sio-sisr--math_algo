@@ -1,0 +1,7 @@
+nav:
+  - Accueil: index.md
+  - phase-1-suites-numeriques
+  - phase-2-recursivite
+  - phase-3-analyse-algorithmes
+  - phase-4-algorithmique-avancee-epreuve
+  - ressources

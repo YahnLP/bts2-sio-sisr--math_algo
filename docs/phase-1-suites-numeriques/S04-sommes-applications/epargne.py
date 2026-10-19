@@ -1,0 +1,3 @@
+def epargne(versement, taux, n):
+    """Capital apres n versements en fin de periode (taux en %), arrondi a 2 decimales."""
+    ...

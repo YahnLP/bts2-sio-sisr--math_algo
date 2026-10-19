@@ -1,0 +1,3 @@
+def rang_seuil(f, u0, seuil, nmax):
+    """Plus petit n <= nmax avec u_n >= seuil, sinon None."""
+    ...

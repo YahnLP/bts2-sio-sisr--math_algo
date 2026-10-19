@@ -1,0 +1,3 @@
+def somme_arith(u0, r, n):
+    """u_0 + ... + u_n avec la formule."""
+    ...

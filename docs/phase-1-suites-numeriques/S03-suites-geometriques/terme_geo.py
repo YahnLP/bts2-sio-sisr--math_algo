@@ -1,0 +1,3 @@
+def terme_geo(u0, q, n):
+    """Renvoie u_n d'une suite géométrique."""
+    ...
