@@ -1,0 +1,3 @@
+def mois_plein(depart, ajout, capacite):
+    """Premier mois n avec depart + n * ajout >= capacite."""
+    ...

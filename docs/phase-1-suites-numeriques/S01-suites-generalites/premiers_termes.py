@@ -1,0 +1,3 @@
+def premiers_termes(f, u0, n):
+    """Liste [u_0, ..., u_n] pour u_{k+1} = f(u_k)."""
+    ...

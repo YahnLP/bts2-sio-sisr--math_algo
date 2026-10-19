@@ -1,0 +1,3 @@
+def nb_termes(a, b, pas):
+    """Nombre de termes a, a+pas, ... qui restent <= b."""
+    ...

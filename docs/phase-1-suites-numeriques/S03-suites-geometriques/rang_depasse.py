@@ -1,0 +1,3 @@
+def rang_depasse(u0, q, seuil):
+    """Plus petit n avec u0 * q**n >= seuil (u0 > 0, q > 1)."""
+    ...

@@ -1,0 +1,3 @@
+def limite_geo(u0, q):
+    """Limite de u0 * q**n (voir l'enonce)."""
+    ...

@@ -1,0 +1,3 @@
+def capital_restant(capital, taux, n, k):
+    """Capital restant du apres k mensualites (taux mensuel en %), arrondi a 2 decimales."""
+    ...

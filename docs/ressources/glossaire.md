@@ -17,6 +17,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Algorithme** |  | *algorithm* | Suite finie d'instructions qui résout un problème. | A1 · S03 |
 | **Algorithme d'Euclide** |  | *Euclidean algorithm* | Divisions successives dont le dernier reste non nul est le PGCD. | A1 · S05 |
 | **Algorithme de Dijkstra** |  | *Dijkstra's algorithm* | Méthode qui fixe à chaque étape le sommet de plus petite valeur pour trouver les chemins minimaux. | A1 · S17 |
+| **Algorithme de seuil** |  | *threshold algorithm* | Boucle qui cherche le premier rang où une suite atteint un seuil donné. | A2 · S05 |
 | **Année bissextile** |  | *leap year* | Année de 366 jours : divisible par 4 et non par 100, ou divisible par 400. | A1 · S03 |
 | **Antisymétrique** |  | *antisymmetric* | Si \(x\) est lié à \(y\) et \(y\) à \(x\), alors \(x = y\). | A1 · S11 |
 | **Application** |  | *function, map* | Association qui donne à chaque élément de départ une et une seule image. | A1 · S11 |
@@ -28,6 +29,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Bit** |  | *bit* | Chiffre binaire : 0 ou 1. | A1 · S01 |
 | **Bit de parité** |  | *parity bit* | Bit ajouté à un mot pour que son nombre total de 1 soit pair (parité paire) ; il permet de détecter une erreur. | A1 · S15 |
 | **Boucle** |  | *loop* | Structure qui répète un bloc d'instructions. | A1 · S04 |
+| **Capital restant dû** |  | *outstanding principal* | Part de l'emprunt qu'il reste à rembourser. | A2 · S04 |
 | **Cardinal** |  | *cardinality* | Nombre d'éléments d'un ensemble fini. | A1 · S09 |
 | **Cas limite** |  | *edge case* | Valeur située à la frontière ou situation particulière (liste vide, un seul élément) qui révèle souvent une erreur. | A1 · S15 |
 | **Chaîne de caractères** |  | *string* | Suite de caractères, non modifiable en Python. | A1 · S12 |
@@ -39,6 +41,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Classe d'équivalence** |  | *equivalence class* | Ensemble des éléments liés à un élément donné. | A1 · S11 |
 | **Clé de contrôle** |  | *check digit* | Chiffre calculé à partir des autres pour détecter une erreur de saisie. | A1 · S07 |
 | **Code de Gray** |  | *Gray code* | Suite de codes dont deux voisins ne diffèrent que d'un bit. | A1 · S10 |
+| **Coefficient multiplicateur** |  | *multiplier* | Nombre par lequel on multiplie pour appliquer une évolution en pourcentage (1,2 pour +20 %). | A2 · S03 |
 | **Complémentaire** |  | *complement* | Éléments de l'ensemble de référence qui ne sont pas dans la partie. | A1 · S09 |
 | **Compteur** |  | *counter* | Variable qui compte les tours d'une boucle. | A1 · S04 |
 | **Condition** |  | *condition* | Expression qui vaut vrai ou faux et oriente l'exécution. | A1 · S03 |
@@ -46,6 +49,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Connecteur logique** |  | *logical connective* | Opération qui combine des propositions : non, et, ou, implication, équivalence. | A1 · S08 |
 | **Contraposée** |  | *contrapositive* | \(\neg q \Rightarrow \neg p\), équivalente à \(p \Rightarrow q\). | A1 · S08 |
 | **Contre-exemple** |  | *counterexample* | Cas particulier qui rend fausse une affirmation « pour tout ». | A1 · S09 |
+| **Convergence** |  | *convergence* | Propriété d'une suite qui a une limite finie. | A2 · S05 |
 | **Couple** |  | *ordered pair* | Paire ordonnée \((a, b)\) : l'ordre compte. | A1 · S11 |
 | **Crible d'Ératosthène** |  | *sieve of Eratosthenes* | Méthode qui élimine les multiples des premiers pour trouver tous les premiers jusqu'à \(n\). | A1 · S06 |
 | **Date au plus tard** |  | *latest start* | Date la plus éloignée à laquelle une tâche peut commencer sans retarder le projet. | A1 · S17 |
@@ -68,7 +72,9 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Fermeture transitive** |  | *transitive closure* | Graphe contenant un arc \(i \to j\) chaque fois qu'il existe un chemin de \(i\) à \(j\). | A1 · S16 |
 | **Fonction** |  | *function* | Bloc de code nommé qui reçoit des paramètres et retourne un résultat. | A1 · S12 |
 | **Fonction de hachage** |  | *hash function* | Application qui associe à une donnée un petit nombre ; des collisions sont inévitables. | A1 · S11 |
+| **Formule explicite** |  | *explicit formula* | Écriture \(u_n = f(n)\) qui donne directement un terme en fonction de son rang. | A2 · S01 |
 | **Fraction** |  | *fraction* | Nombre rationnel exact (`Fraction` en Python), qui évite les arrondis. | A1 · S14 |
+| **Garde-fou** |  | *safeguard* | Limite du nombre d'itérations qui empêche une boucle de ne jamais s'arrêter. | A2 · S05 |
 | **Graphe orienté** |  | *directed graph* | Ensemble de sommets reliés par des arcs. | A1 · S16 |
 | **Graphe valué** |  | *weighted graph* | Graphe dont chaque arc porte un nombre. | A1 · S17 |
 | **Hexadécimal** |  | *hexadecimal* | Numération en base 16 : chiffres 0 à 9 puis A à F (A = 10, … F = 15). | A1 · S01 |
@@ -76,11 +82,14 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Implication** |  | *implication* | \(p \Rightarrow q\), fausse seulement si \(p\) est vraie et \(q\) fausse. | A1 · S08 |
 | **Indice** |  | *index* | Numéro d'un élément dans un tableau ou une chaîne (à partir de 0). | A1 · S12 |
 | **Injective** |  | *injective* | Deux éléments distincts ont des images distinctes. | A1 · S11 |
+| **Intérêts composés** |  | *compound interest* | Intérêts ajoutés au capital et produisant eux-mêmes des intérêts. | A2 · S04 |
+| **Intérêts simples** |  | *simple interest* | Intérêts calculés toujours sur le capital de départ. | A2 · S04 |
 | **Invariant** |  | *invariant* | Propriété vraie avant, pendant et après chaque tour de boucle. | A1 · S04 |
 | **Inverse modulaire** |  | *modular inverse* | Entier \(b\) tel que \(ab \equiv 1 \pmod n\) ; il existe si PGCD\((a, n) = 1\). | A1 · S07 |
 | **Itération** |  | *iteration* | Un passage dans une boucle. | A1 · S04 |
 | **Jeu de tests** |  | *test suite* | Ensemble de cas, avec le résultat attendu, qui permet de contrôler une fonction. | A1 · S18 |
 | **Kibioctet / Mébioctet** |  | *kibibyte / mebibyte* | 1 024 octets (\(2^{10}\)) / 1 048 576 octets (\(2^{20}\)). | A1 · S02 |
+| **Limite d'une suite** |  | *limit of a sequence* | Valeur dont les termes se rapprochent indéfiniment, ou \(\pm\infty\). | A2 · S05 |
 | **Lois de De Morgan** |  | *De Morgan's laws* | \(\neg(p \wedge q) \equiv \neg p \vee \neg q\) et \(\neg(p \vee q) \equiv \neg p \wedge \neg q\). | A1 · S08 |
 | **Marge certaine** |  | *safe float* | Retard possible même si tous les prédécesseurs finissent au plus tard. | A1 · S17 |
 | **Marge libre** |  | *free float* | Retard maximal d'une tâche sans retarder le début au plus tôt des suivantes. | A1 · S17 |
@@ -94,6 +103,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Matrice identité** |  | *identity matrix* | Matrice carrée avec des 1 sur la diagonale et des 0 ailleurs ; élément neutre du produit. | A1 · S13 |
 | **Matrice inversible** |  | *invertible matrix* | Matrice carrée \(A\) pour laquelle il existe \(A^{-1}\) avec \(AA^{-1} = A^{-1}A = I\). | A1 · S14 |
 | **Mémoire vive** | RAM | *random access memory* | Mémoire de travail d'un ordinateur, rapide et volatile. | A1 · S01 |
+| **Mensualité** |  | *monthly payment* | Somme constante versée chaque mois pour rembourser un emprunt. | A2 · S04 |
 | **Méthode des lignes** |  | *Gauss-Jordan elimination* | Opérations sur les lignes de \([A \mid I]\) pour obtenir \([I \mid A^{-1}]\). | A1 · S14 |
 | **Méthode des potentiels Métra** | MPM | *precedence diagramming* | Méthode d'ordonnancement où les tâches sont les sommets du graphe. | A1 · S17 |
 | **Modulo** |  | *modulo* | Reste de la division euclidienne ; opération `%` en Python. | A1 · S07 |
@@ -118,6 +128,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Plus grand commun diviseur** | PGCD | *greatest common divisor, GCD* | Plus grand entier qui divise deux entiers. | A1 · S05 |
 | **Plus petit commun multiple** | PPCM | *least common multiple, LCM* | Plus petit entier strictement positif multiple de deux entiers. | A1 · S05 |
 | **Poids fort / poids faible** |  | *most / least significant bit* | Le bit de gauche (poids le plus grand) / celui de droite (rang 0). | A1 · S01 |
+| **Point fixe** |  | *fixed point* | Valeur \(L\) telle que \(L = f(L)\) : si la suite l'atteint, elle n'en bouge plus. | A2 · S05 |
 | **Porte NON-ET** | NAND | *NAND gate* | Fonction \(\overline{a \cdot b}\) ; à elle seule, elle permet de réaliser toutes les autres. | A1 · S10 |
 | **Porte NON-OU** | NOR | *NOR gate* | Fonction \(\overline{a + b}\) ; elle est aussi universelle. | A1 · S10 |
 | **Prédicat** |  | *predicate* | Énoncé dont la valeur de vérité dépend d'une ou plusieurs variables. | A1 · S09 |
@@ -132,27 +143,34 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Puissance d'une matrice** |  | *matrix power* | Produit répété d'une matrice carrée par elle-même. | A1 · S13 |
 | **Quantificateur existentiel** |  | *existential quantifier* | \(\exists\) : « il existe au moins un ». | A1 · S09 |
 | **Quantificateur universel** |  | *universal quantifier* | \(\forall\) : « pour tout ». | A1 · S09 |
+| **Raison** |  | *common difference or ratio* | Nombre ajouté (suite arithmétique) ou multiplicateur (suite géométrique) à chaque terme. | A2 · S02 |
 | **Rang** |  | *position* | Position d'un chiffre dans un nombre, comptée à partir de 0 à droite. | A1 · S01 |
 | **Recherche dichotomique** |  | *binary search* | Recherche dans un tableau trié qui élimine la moitié des éléments à chaque étape. | A1 · S12 |
 | **Réflexive** |  | *reflexive* | Tout élément est en relation avec lui-même. | A1 · S11 |
 | **Relation binaire** |  | *binary relation* | Partie d'un produit cartésien \(A \times B\). | A1 · S11 |
 | **Relation d'équivalence** |  | *equivalence relation* | Relation réflexive, symétrique et transitive ; elle partitionne l'ensemble en classes. | A1 · S11 |
 | **Relation d'ordre** |  | *order relation* | Relation réflexive, antisymétrique et transitive. | A1 · S11 |
+| **Relation de récurrence** |  | *recurrence relation* | Règle qui donne le terme suivant à partir des précédents, avec un premier terme. | A2 · S01 |
 | **Retenue** |  | *carry* | Chiffre reporté au rang suivant lors d'une addition. | A1 · S02 |
 | **Somme de contrôle** |  | *checksum* | Valeur calculée à partir de tous les octets d'un message et transmise avec lui pour détecter une altération. | A1 · S15 |
 | **Somme de produits** |  | *sum of products* | Expression écrite comme un OU de ET (forme issue d'une table de vérité). | A1 · S10 |
 | **Sommet** |  | *vertex* | Point d'un graphe. | A1 · S16 |
 | **Successeur / prédécesseur** |  | *successor / predecessor* | Sommet atteint par un arc / sommet d'où part un arc. | A1 · S16 |
+| **Suite arithmétique** |  | *arithmetic sequence* | Suite où l'on ajoute toujours la même quantité : \(u_{n+1} = u_n + r\). | A2 · S02 |
 | **Suite de Fibonacci** |  | *Fibonacci sequence* | Suite \(F_0 = 0, F_1 = 1, F_{n} = F_{n-1} + F_{n-2}\). | A1 · S13 |
+| **Suite géométrique** |  | *geometric sequence* | Suite où l'on multiplie toujours par le même nombre : \(u_{n+1} = q\,u_n\). | A2 · S03 |
+| **Suite numérique** |  | *sequence* | Liste de nombres indexée par les entiers : un terme \(u_n\) pour chaque rang \(n\). | A2 · S01 |
 | **Surjective** |  | *surjective* | Tout élément d'arrivée a au moins un antécédent. | A1 · S11 |
 | **Symétrique** |  | *symmetric* | Si \(x\) est lié à \(y\), alors \(y\) est lié à \(x\). | A1 · S11 |
 | **Système de Cramer** |  | *Cramer system* | Système linéaire \(AX = B\) dont la matrice est inversible : solution unique \(X = A^{-1}B\). | A1 · S14 |
 | **Système de noms de domaine** | DNS | *domain name system* | Service qui associe des noms à des adresses IP. | A1 · S12 |
 | **Table de vérité** |  | *truth table* | Tableau des valeurs d'une expression pour toutes les valeurs possibles des variables. | A1 · S08 |
 | **Tableau** |  | *array* | Suite d'éléments repérés par un indice. | A1 · S12 |
+| **Tableau d'amortissement** |  | *amortization schedule* | Tableau qui détaille, mois par mois, intérêts, amortissement et capital restant dû. | A2 · S04 |
 | **Tableau de Karnaugh** |  | *Karnaugh map* | Grille qui range une table de vérité pour simplifier une expression par regroupements. | A1 · S10 |
 | **Tâche critique** |  | *critical task* | Tâche de marge totale nulle. | A1 · S17 |
 | **Tautologie** |  | *tautology* | Expression toujours vraie. | A1 · S08 |
+| **Terme** |  | *term* | Nombre \(u_n\) d'une suite associé au rang \(n\). | A2 · S01 |
 | **Terminaison** |  | *termination* | Garantie qu'un algorithme s'arrête. | A1 · S18 |
 | **Trace** |  | *trace* | Tableau des valeurs des variables à chaque étape d'un algorithme. | A1 · S04 |
 | **Tranche** |  | *slice* | Partie d'une chaîne ou d'une liste, `s[a:b]` (borne b exclue). | A1 · S12 |

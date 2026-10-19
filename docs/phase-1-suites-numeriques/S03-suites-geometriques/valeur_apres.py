@@ -1,0 +1,3 @@
+def valeur_apres(valeur, taux, periodes):
+    """valeur apres `periodes` evolutions de `taux` pour cent."""
+    ...

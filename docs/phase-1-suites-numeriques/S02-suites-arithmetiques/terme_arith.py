@@ -1,0 +1,3 @@
+def terme_arith(u0, r, n):
+    """Renvoie u_n d'une suite arithmétique."""
+    ...

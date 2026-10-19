@@ -1,0 +1,3 @@
+def capital_compose(c0, taux, n):
+    """Capital apres n periodes, interets composes (taux en %), arrondi a 2 decimales."""
+    ...

@@ -177,4 +177,23 @@ DATA = [
 ("Nombre flottant", None, "floating-point number", "Représentation approchée d'un réel en machine.", "A1 · S18"),
 # --- S19 Révisions et E3
 ("Épreuve E3", None, "", "Épreuve écrite de mathématiques pour l'informatique, de 2 h, coefficient 3.", "A1 · S19"),
+# --- A2 : phase 1
+("Suite numérique", None, "sequence", "Liste de nombres indexée par les entiers : un terme \\(u_n\\) pour chaque rang \\(n\\).", "A2 · S01"),
+("Terme", None, "term", "Nombre \\(u_n\\) d'une suite associé au rang \\(n\\).", "A2 · S01"),
+("Formule explicite", None, "explicit formula", "Écriture \\(u_n = f(n)\\) qui donne directement un terme en fonction de son rang.", "A2 · S01"),
+("Relation de récurrence", None, "recurrence relation", "Règle qui donne le terme suivant à partir des précédents, avec un premier terme.", "A2 · S01"),
+("Suite arithmétique", None, "arithmetic sequence", "Suite où l'on ajoute toujours la même quantité : \\(u_{n+1} = u_n + r\\).", "A2 · S02"),
+("Raison", None, "common difference or ratio", "Nombre ajouté (suite arithmétique) ou multiplicateur (suite géométrique) à chaque terme.", "A2 · S02"),
+("Suite géométrique", None, "geometric sequence", "Suite où l'on multiplie toujours par le même nombre : \\(u_{n+1} = q\\,u_n\\).", "A2 · S03"),
+("Coefficient multiplicateur", None, "multiplier", "Nombre par lequel on multiplie pour appliquer une évolution en pourcentage (1,2 pour +20 %).", "A2 · S03"),
+("Intérêts simples", None, "simple interest", "Intérêts calculés toujours sur le capital de départ.", "A2 · S04"),
+("Intérêts composés", None, "compound interest", "Intérêts ajoutés au capital et produisant eux-mêmes des intérêts.", "A2 · S04"),
+("Mensualité", None, "monthly payment", "Somme constante versée chaque mois pour rembourser un emprunt.", "A2 · S04"),
+("Tableau d'amortissement", None, "amortization schedule", "Tableau qui détaille, mois par mois, intérêts, amortissement et capital restant dû.", "A2 · S04"),
+("Capital restant dû", None, "outstanding principal", "Part de l'emprunt qu'il reste à rembourser.", "A2 · S04"),
+("Limite d'une suite", None, "limit of a sequence", "Valeur dont les termes se rapprochent indéfiniment, ou \\(\\pm\\infty\\).", "A2 · S05"),
+("Convergence", None, "convergence", "Propriété d'une suite qui a une limite finie.", "A2 · S05"),
+("Point fixe", None, "fixed point", "Valeur \\(L\\) telle que \\(L = f(L)\\) : si la suite l'atteint, elle n'en bouge plus.", "A2 · S05"),
+("Algorithme de seuil", None, "threshold algorithm", "Boucle qui cherche le premier rang où une suite atteint un seuil donné.", "A2 · S05"),
+("Garde-fou", None, "safeguard", "Limite du nombre d'itérations qui empêche une boucle de ne jamais s'arrêter.", "A2 · S05"),
 ]

@@ -1,0 +1,3 @@
+def somme_geo(u0, q, n):
+    """u_0 + ... + u_n avec la formule (entiers)."""
+    ...

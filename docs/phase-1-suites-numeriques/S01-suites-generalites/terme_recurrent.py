@@ -1,0 +1,3 @@
+def terme_recurrent(u0, n):
+    """Renvoie u_n avec u_{k+1} = 2 u_k + 1."""
+    ...
