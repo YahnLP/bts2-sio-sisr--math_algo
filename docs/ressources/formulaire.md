@@ -141,3 +141,157 @@ Invariant : après \(k\) tours, `t` vaut \(u_k\).
 
 Variant avec garde-fou : `nmax - n`.
 
+## S06 · Récursivité : principe
+
+### Structure
+
+```python
+def f(donnee):
+    if cas_de_base:
+        return resultat_direct
+    return combiner(f(donnee_plus_petite))
+```
+
+| Ingrédient | Question à se poser |
+|---|---|
+| Cas de base | Quel est le plus petit problème, résolu directement ? |
+| Cas récursif | Comment passer à un problème plus petit ? |
+| Variant | Quel entier décroît strictement et reste \(\ge 0\) ? |
+
+### Modèles
+
+| Problème | Cas de base | Cas récursif |
+|---|---|---|
+| \(n!\) | \(0! = 1\) | \(n \times (n-1)!\) |
+| \(1 + \dots + n\) | \(0\) | \(n + S(n-1)\) |
+| \(x^n\) | \(1\) | \(x \times x^{n-1}\) |
+| PGCD | \(b = 0\) : \(a\) | `pgcd(b, a % b)` |
+| Binaire de \(n\) | \(n < 2\) : `str(n)` | `binaire(n // 2) + str(n % 2)` |
+
+### Pièges
+
+- Pas de cas de base ou appel qui ne se rapproche pas : `RecursionError`.
+- `fact(n)` : \(n + 1\) appels. Profondeur limitée (environ 1 000 par défaut en Python).
+- Récursif et itératif donnent le même résultat ; l'itératif ne risque pas la limite de profondeur.
+
+## S07 · Récursivité, suites et pile d'appels
+
+### Suite → fonction
+
+\(u_0\) donné, \(u_{n+1} = f(u_n)\) : cas de base `n == 0`, cas récursif `f(u(n - 1))`.
+
+### Pile d'appels
+
+Un cadre par appel en attente ; profondeur de `fact(n)` : \(n + 1\). Limite d'environ 1 000 en Python : au-delà, `RecursionError`.
+
+### Fibonacci
+
+\(F_0 = 0\), \(F_1 = 1\), \(F_n = F_{n-1} + F_{n-2}\) : 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55.
+
+| Version | Appels / tours pour \(n\) |
+|---|---|
+| Naïve | \(C(n) = 1 + C(n-1) + C(n-2)\) : 177 pour \(n = 10\), 2 692 537 pour \(n = 30\) |
+| Mémoïsée | \(2n - 1\) |
+| Itérative | \(n\) tours |
+
+### Mémoïsation
+
+```python
+def f(n, cache=None):
+    if cache is None:
+        cache = {}
+    ...
+    if n not in cache:
+        cache[n] = ...
+    return cache[n]
+```
+
+Jamais `cache={}` en paramètre par défaut.
+
+## S08 · Récursivité sur les tableaux et les chaînes
+
+### Structure d'une liste ou d'une chaîne
+
+Vide (ou courte) = cas de base ; `L[0]` + `L[1:]` = cas récursif. Variant : `len(L)`.
+
+### Modèles
+
+| Problème | Cas de base | Cas récursif |
+|---|---|---|
+| Somme | `[]` : 0 | `L[0] + somme(L[1:])` |
+| Maximum | 1 élément : `L[0]` | comparer `L[0]` et `maximum(L[1:])` |
+| Comptage | `[]` : 0 | `(L[0] == x)` + `compte(L[1:], x)` |
+| Présence | `[]` : `False` | `L[0] == x or present(L[1:], x)` |
+| Inversion | `""` : `""` | `inverse(s[1:]) + s[0]` |
+| Palindrome | `len(s) <= 1` : `True` | `s[0] == s[-1] and est_palindrome(s[1:-1])` |
+| Somme des chiffres | `n < 10` : `n` | `n % 10 + somme_chiffres(n // 10)` |
+
+### Coût
+
+- `L[1:]` copie : \(n(n-1)/2\) éléments copiés au total.
+- Profondeur \(n + 1\) : une liste de 1 000 éléments dépasse la limite habituelle.
+- Remède : passer un indice, ou utiliser une boucle.
+
+## S09 · Diviser pour régner
+
+### Principe
+
+Diviser (moitiés) → résoudre → combiner. Environ \(\log_2 n\) niveaux.
+
+### Dichotomie (liste **triée**)
+
+`milieu = (bas + haut) // 2` ; égal : trouvé ; plus petit : `bas = milieu + 1` ; plus grand : `haut = milieu - 1` ; `bas > haut` : absent. Au plus \(\lfloor \log_2 n \rfloor + 1\) comparaisons (10 pour 1 000, 20 pour un million).
+
+### Puissance rapide
+
+| \(n\) | Calcul |
+|---|---|
+| 0 | 1 |
+| pair | \(y = x^{n/2}\) (calculé **une fois**), puis \(y^2\) |
+| impair | \(x \cdot x^{n-1}\) |
+
+\(x^{1000}\) : 15 multiplications.
+
+### Tri fusion
+
+`fusion(A, B)` : deux indices, on prend le plus petit des deux fronts, puis on recopie le reste. `tri_fusion(L)` : cas de base `len(L) <= 1`, sinon fusion des deux moitiés triées. Environ \(n \log_2 n\) comparaisons ; \(2n - 1\) appels.
+
+### Pièges
+
+Dichotomie sur liste non triée ; appel dupliqué sur `n // 2` ; oublier le reste à recopier dans la fusion.
+
+## S10 · Arborescences et parcours en profondeur
+
+### Arborescence
+
+Dictionnaire imbriqué : valeur entière = fichier (cas de base), dictionnaire = dossier (cas récursif). `isinstance(x, int)` teste un fichier.
+
+| Fonction | Fichier | Dossier |
+|---|---|---|
+| Taille | la valeur | somme des éléments |
+| Nombre de fichiers | 1 | somme des éléments |
+| Profondeur | 0 | 1 + max des éléments (1 si vide) |
+| Chemins | `préfixe + nom` | concaténation, préfixe `nom + "/"` |
+
+### Graphe
+
+`g = {sommet: [voisins]}`.
+
+```python
+def dfs(g, sommet, visites=None):
+    if visites is None:
+        visites = []
+    visites.append(sommet)
+    for voisin in g[sommet]:
+        if voisin not in visites:
+            dfs(g, voisin, visites)
+    return visites
+```
+
+### Points de vigilance
+
+- Cycle sans liste des sommets visités : `RecursionError`.
+- Variant du DFS : nombre de sommets non visités.
+- Atteignables = sommets visités. DFS ne donne pas le plus court chemin.
+- Très grand graphe : pile explicite plutôt que récursivité (S16).
+

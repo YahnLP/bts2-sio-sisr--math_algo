@@ -1,0 +1,3 @@
+def nb_mult(n):
+    """Nombre de multiplications de puissance_rapide(x, n)."""
+    ...

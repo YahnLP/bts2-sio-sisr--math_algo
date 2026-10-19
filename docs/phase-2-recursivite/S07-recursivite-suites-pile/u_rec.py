@@ -1,0 +1,3 @@
+def u_rec(n):
+    """u_0 = 3, u_{n+1} = 2 u_n - 1, de facon recursive."""
+    ...

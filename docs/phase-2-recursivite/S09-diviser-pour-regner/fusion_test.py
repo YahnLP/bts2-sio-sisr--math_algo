@@ -1,0 +1,5 @@
+assert fusion([2, 5, 9], [1, 6, 7, 10]) == [1, 2, 5, 6, 7, 9, 10]
+assert fusion([], [1, 2]) == [1, 2]
+assert fusion([3], []) == [3]
+assert fusion([1, 1], [1]) == [1, 1, 1]
+assert fusion([1, 4, 8], [2, 3, 9]) == [1, 2, 3, 4, 8, 9]

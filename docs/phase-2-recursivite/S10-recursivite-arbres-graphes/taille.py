@@ -1,0 +1,3 @@
+def taille(a):
+    """Taille totale d'une arborescence (entier = fichier, dict = dossier)."""
+    ...

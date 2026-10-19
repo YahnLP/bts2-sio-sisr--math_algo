@@ -1,0 +1,3 @@
+def dicho(L, x):
+    """Indice de x dans la liste triee L, ou -1."""
+    ...

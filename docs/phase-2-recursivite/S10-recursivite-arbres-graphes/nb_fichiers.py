@@ -1,0 +1,3 @@
+def nb_fichiers(a):
+    """Nombre de fichiers d'une arborescence."""
+    ...

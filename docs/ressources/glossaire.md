@@ -21,6 +21,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Année bissextile** |  | *leap year* | Année de 366 jours : divisible par 4 et non par 100, ou divisible par 400. | A1 · S03 |
 | **Antisymétrique** |  | *antisymmetric* | Si \(x\) est lié à \(y\) et \(y\) à \(x\), alors \(x = y\). | A1 · S11 |
 | **Application** |  | *function, map* | Association qui donne à chaque élément de départ une et une seule image. | A1 · S11 |
+| **Arborescence** |  | *tree structure* | Structure en dossiers et sous-dossiers, ou plus généralement en arbre. | A2 · S10 |
 | **Arc** |  | *arc* | Flèche d'un sommet vers un autre. | A1 · S16 |
 | **Arrondi** |  | *rounding* | Remplacement d'un nombre par une valeur voisine à une précision donnée. | A1 · S02 |
 | **Base** |  | *base, radix* | Nombre de chiffres différents d'un système de numération (2, 10, 16…). | A1 · S01 |
@@ -31,7 +32,9 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Boucle** |  | *loop* | Structure qui répète un bloc d'instructions. | A1 · S04 |
 | **Capital restant dû** |  | *outstanding principal* | Part de l'emprunt qu'il reste à rembourser. | A2 · S04 |
 | **Cardinal** |  | *cardinality* | Nombre d'éléments d'un ensemble fini. | A1 · S09 |
+| **Cas de base** |  | *base case* | Cas d'une fonction récursive dont le résultat est connu directement et qui arrête les appels. | A2 · S06 |
 | **Cas limite** |  | *edge case* | Valeur située à la frontière ou situation particulière (liste vide, un seul élément) qui révèle souvent une erreur. | A1 · S15 |
+| **Cas récursif** |  | *recursive case* | Cas où la fonction se ramène à un appel sur un problème plus petit. | A2 · S06 |
 | **Chaîne de caractères** |  | *string* | Suite de caractères, non modifiable en Python. | A1 · S12 |
 | **Chemin** |  | *path* | Suite de sommets reliés par des arcs successifs. | A1 · S16 |
 | **Chemin critique** |  | *critical path* | Chemin de tâches critiques ; sa longueur est la durée minimale du projet. | A1 · S17 |
@@ -61,6 +64,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Diagramme de Hasse** |  | *Hasse diagram* | Représentation d'un ordre fini où l'on ne trace que les liens de couverture. | A1 · S11 |
 | **Dictionnaire** |  | *dictionary* | Association clé → valeur. | A1 · S12 |
 | **Disque à état solide** | SSD | *solid-state drive* | Support de stockage sans pièce mobile, fait de mémoire flash. | A1 · S01 |
+| **Diviser pour régner** |  | *divide and conquer* | Méthode qui coupe un problème en sous-problèmes plus petits, les résout, puis combine les résultats. | A2 · S09 |
 | **Diviseur** |  | *divisor* | Entier qui divise un autre sans reste. | A1 · S05 |
 | **Division euclidienne** |  | *Euclidean division* | Écriture \(a = bq + r\) avec \(0 \le r < b\) ; \(q\) est le quotient, \(r\) le reste. | A1 · S05 |
 | **Effet de bord** |  | *side effect* | Modification d'une donnée extérieure à la fonction (par exemple une liste passée en paramètre). | A1 · S18 |
@@ -69,6 +73,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Épreuve E3** |  |  | Épreuve écrite de mathématiques pour l'informatique, de 2 h, coefficient 3. | A1 · S19 |
 | **Équivalence logique** |  | *logical equivalence* | Deux expressions qui ont la même table de vérité. | A1 · S08 |
 | **Erreur d'arrondi** |  | *rounding error* | Écart entre un nombre et sa valeur arrondie. | A1 · S02 |
+| **Exponentiation rapide** |  | *fast exponentiation* | Calcul de \(x^n\) en élevant au carré la moitié de la puissance. | A2 · S09 |
 | **Fermeture transitive** |  | *transitive closure* | Graphe contenant un arc \(i \to j\) chaque fois qu'il existe un chemin de \(i\) à \(j\). | A1 · S16 |
 | **Fonction** |  | *function* | Bloc de code nommé qui reçoit des paramètres et retourne un résultat. | A1 · S12 |
 | **Fonction de hachage** |  | *hash function* | Application qui associe à une donnée un petit nombre ; des collisions sont inévitables. | A1 · S11 |
@@ -103,6 +108,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Matrice identité** |  | *identity matrix* | Matrice carrée avec des 1 sur la diagonale et des 0 ailleurs ; élément neutre du produit. | A1 · S13 |
 | **Matrice inversible** |  | *invertible matrix* | Matrice carrée \(A\) pour laquelle il existe \(A^{-1}\) avec \(AA^{-1} = A^{-1}A = I\). | A1 · S14 |
 | **Mémoire vive** | RAM | *random access memory* | Mémoire de travail d'un ordinateur, rapide et volatile. | A1 · S01 |
+| **Mémoïsation** |  | *memoization* | Mémorisation des résultats déjà calculés pour ne pas les recalculer. | A2 · S07 |
 | **Mensualité** |  | *monthly payment* | Somme constante versée chaque mois pour rembourser un emprunt. | A2 · S04 |
 | **Méthode des lignes** |  | *Gauss-Jordan elimination* | Opérations sur les lignes de \([A \mid I]\) pour obtenir \([I \mid A^{-1}]\). | A1 · S14 |
 | **Méthode des potentiels Métra** | MPM | *precedence diagramming* | Méthode d'ordonnancement où les tâches sont les sommets du graphe. | A1 · S17 |
@@ -120,10 +126,13 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Octet** |  | *byte* | Groupe de 8 bits ; il représente un entier de 0 à 255. | A1 · S01 |
 | **Opérateur bit à bit** |  | *bitwise operator* | Opération appliquée à chaque bit de deux nombres (ET, OU, OU exclusif). | A1 · S03 |
 | **Ou exclusif** |  | *exclusive or, XOR* | Vrai quand un seul des deux opérandes est vrai. | A1 · S08 |
+| **Palindrome** |  | *palindrome* | Mot qui se lit de la même façon dans les deux sens. | A2 · S08 |
 | **Paramètre** |  | *parameter* | Variable d'entrée d'une fonction. | A1 · S12 |
+| **Parcours en profondeur** | DFS | *depth-first search* | Parcours d'un graphe qui suit un chemin jusqu'au bout avant de revenir en arrière. | A2 · S10 |
 | **Partie (sous-ensemble)** |  | *subset* | Ensemble dont tous les éléments appartiennent à un autre ensemble. | A1 · S09 |
 | **Partie entière** |  | *integer part* | Plus grand entier inférieur ou égal à un nombre. | A1 · S02 |
 | **Passerelle** |  | *gateway* | Routeur par lequel passent les paquets destinés à un autre réseau. | A1 · S10 |
+| **Pile d'appels** |  | *call stack* | Zone de mémoire qui garde les appels de fonction en attente, un cadre par appel. | A2 · S07 |
 | **Pivot** |  | *pivot* | Coefficient qu'on ramène à 1 pour éliminer les autres de sa colonne. | A1 · S14 |
 | **Plus grand commun diviseur** | PGCD | *greatest common divisor, GCD* | Plus grand entier qui divise deux entiers. | A1 · S05 |
 | **Plus petit commun multiple** | PPCM | *least common multiple, LCM* | Plus petit entier strictement positif multiple de deux entiers. | A1 · S05 |
@@ -146,6 +155,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Raison** |  | *common difference or ratio* | Nombre ajouté (suite arithmétique) ou multiplicateur (suite géométrique) à chaque terme. | A2 · S02 |
 | **Rang** |  | *position* | Position d'un chiffre dans un nombre, comptée à partir de 0 à droite. | A1 · S01 |
 | **Recherche dichotomique** |  | *binary search* | Recherche dans un tableau trié qui élimine la moitié des éléments à chaque étape. | A1 · S12 |
+| **Récursivité** |  | *recursion* | Technique où une fonction s'appelle elle-même sur un problème plus petit. | A2 · S06 |
 | **Réflexive** |  | *reflexive* | Tout élément est en relation avec lui-même. | A1 · S11 |
 | **Relation binaire** |  | *binary relation* | Partie d'un produit cartésien \(A \times B\). | A1 · S11 |
 | **Relation d'équivalence** |  | *equivalence relation* | Relation réflexive, symétrique et transitive ; elle partitionne l'ensemble en classes. | A1 · S11 |
@@ -155,6 +165,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Somme de contrôle** |  | *checksum* | Valeur calculée à partir de tous les octets d'un message et transmise avec lui pour détecter une altération. | A1 · S15 |
 | **Somme de produits** |  | *sum of products* | Expression écrite comme un OU de ET (forme issue d'une table de vérité). | A1 · S10 |
 | **Sommet** |  | *vertex* | Point d'un graphe. | A1 · S16 |
+| **Sommet atteignable** |  | *reachable vertex* | Sommet auquel on peut arriver en suivant des liens depuis un sommet de départ. | A2 · S10 |
 | **Successeur / prédécesseur** |  | *successor / predecessor* | Sommet atteint par un arc / sommet d'où part un arc. | A1 · S16 |
 | **Suite arithmétique** |  | *arithmetic sequence* | Suite où l'on ajoute toujours la même quantité : \(u_{n+1} = u_n + r\). | A2 · S02 |
 | **Suite de Fibonacci** |  | *Fibonacci sequence* | Suite \(F_0 = 0, F_1 = 1, F_{n} = F_{n-1} + F_{n-2}\). | A1 · S13 |
@@ -175,6 +186,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Trace** |  | *trace* | Tableau des valeurs des variables à chaque étape d'un algorithme. | A1 · S04 |
 | **Tranche** |  | *slice* | Partie d'une chaîne ou d'une liste, `s[a:b]` (borne b exclue). | A1 · S12 |
 | **Transitive** |  | *transitive* | Si \(x\) est lié à \(y\) et \(y\) à \(z\), alors \(x\) est lié à \(z\). | A1 · S11 |
+| **Tri fusion** |  | *merge sort* | Tri qui trie chaque moitié d'une liste puis fusionne les deux listes triées. | A2 · S09 |
 | **Tri par sélection** |  | *selection sort* | Tri qui place successivement le minimum du reste du tableau. | A1 · S12 |
 | **Troncature** |  | *truncation* | Suppression des chiffres au-delà d'un rang donné, sans arrondir. | A1 · S02 |
 | **Type** |  | *type* | Nature d'une donnée : entier, réel, booléen, chaîne… | A1 · S03 |

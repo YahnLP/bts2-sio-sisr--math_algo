@@ -1,0 +1,3 @@
+def somme_chiffres(n):
+    """Somme des chiffres decimaux de n, de facon recursive."""
+    ...

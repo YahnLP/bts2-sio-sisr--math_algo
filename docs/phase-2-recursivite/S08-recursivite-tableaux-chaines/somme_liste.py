@@ -1,0 +1,3 @@
+def somme_liste(L):
+    """Somme des elements de L, de facon recursive."""
+    ...

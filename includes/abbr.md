@@ -8,6 +8,7 @@
 *[NIR]: Numéro d'inscription au répertoire : Numéro de sécurité sociale ; sa clé est \(97 - (n \bmod 97)\).
 *[IBAN]: Numéro de compte bancaire international : Identifiant de compte, validé par un calcul modulo 97.
 *[ISBN]: Numéro international normalisé du livre : Identifiant de 13 chiffres d'un livre, dont le dernier est une clé de contrôle.
+*[DFS]: Parcours en profondeur : Parcours d'un graphe qui suit un chemin jusqu'au bout avant de revenir en arrière.
 *[PGCD]: Plus grand commun diviseur : Plus grand entier qui divise deux entiers.
 *[PPCM]: Plus petit commun multiple : Plus petit entier strictement positif multiple de deux entiers.
 *[NAND]: Porte NON-ET : Fonction \(\overline{a \cdot b}\) ; à elle seule, elle permet de réaliser toutes les autres.
