@@ -1,0 +1,3 @@
+def duree_jours(ops, par_seconde):
+    """Duree en jours."""
+    ...

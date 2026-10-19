@@ -1,0 +1,3 @@
+def jours_force_brute(taille_alphabet, longueur, par_seconde):
+    """Duree maximale en jours."""
+    ...

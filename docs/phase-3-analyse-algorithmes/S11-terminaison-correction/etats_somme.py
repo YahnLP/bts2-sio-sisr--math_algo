@@ -1,0 +1,3 @@
+def etats_somme(n):
+    """Valeurs de s avant la boucle puis apres chaque tour (liste de n+1 valeurs)."""
+    ...

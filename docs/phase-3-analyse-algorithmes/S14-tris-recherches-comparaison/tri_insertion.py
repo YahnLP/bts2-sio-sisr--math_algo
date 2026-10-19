@@ -1,0 +1,3 @@
+def tri_insertion(L):
+    """Nouvelle liste triee, par insertion."""
+    ...

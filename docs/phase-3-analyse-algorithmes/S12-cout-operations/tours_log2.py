@@ -1,0 +1,3 @@
+def tours_log2(n):
+    """Nombre de tours de: while n > 1: n = n // 2."""
+    ...

@@ -1,0 +1,3 @@
+def tri_selection(L):
+    """Nouvelle liste triee, par selection."""
+    ...

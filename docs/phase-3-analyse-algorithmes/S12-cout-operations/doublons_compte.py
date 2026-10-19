@@ -1,0 +1,3 @@
+def doublons_compte(L):
+    """Renvoie (True/False, nb_comparaisons)."""
+    ...

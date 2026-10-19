@@ -1,0 +1,3 @@
+def facteur_croissance(f, a, b):
+    """Renvoie f(b) / f(a)."""
+    ...

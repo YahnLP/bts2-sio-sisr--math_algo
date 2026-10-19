@@ -1,0 +1,3 @@
+def comparaisons_insertion(L):
+    """Nombre de comparaisons L[j-1] > x du tri par insertion."""
+    ...

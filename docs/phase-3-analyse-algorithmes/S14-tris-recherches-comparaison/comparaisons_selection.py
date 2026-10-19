@@ -1,0 +1,3 @@
+def comparaisons_selection(L):
+    """Nombre de comparaisons du tri par selection."""
+    ...

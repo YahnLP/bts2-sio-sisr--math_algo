@@ -1,0 +1,3 @@
+def estime_ordre(f):
+    """Classe estimee d'apres le ratio f(128)/f(64)."""
+    ...

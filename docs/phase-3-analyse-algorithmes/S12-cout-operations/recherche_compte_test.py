@@ -1,0 +1,5 @@
+assert recherche_compte([3, 5, 7], 3) == (0, 1)
+assert recherche_compte([3, 5, 7], 7) == (2, 3)
+assert recherche_compte([3, 5, 7], 9) == (-1, 3)
+assert recherche_compte([], 1) == (-1, 0)
+assert recherche_compte([4, 4], 4) == (0, 1)

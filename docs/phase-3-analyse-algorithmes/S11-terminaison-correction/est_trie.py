@@ -1,0 +1,3 @@
+def est_trie(L):
+    """True si L est triee (croissant, au sens large)."""
+    ...

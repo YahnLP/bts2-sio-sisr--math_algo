@@ -1,0 +1,3 @@
+def premier_n_pire(f, g):
+    """Plus petit n >= 1 tel que g(n) > f(n)."""
+    ...

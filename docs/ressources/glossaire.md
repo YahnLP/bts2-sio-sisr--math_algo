@@ -46,6 +46,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Code de Gray** |  | *Gray code* | Suite de codes dont deux voisins ne diffèrent que d'un bit. | A1 · S10 |
 | **Coefficient multiplicateur** |  | *multiplier* | Nombre par lequel on multiplie pour appliquer une évolution en pourcentage (1,2 pour +20 %). | A2 · S03 |
 | **Complémentaire** |  | *complement* | Éléments de l'ensemble de référence qui ne sont pas dans la partie. | A1 · S09 |
+| **Complexité** |  | *complexity* | Mesure de la façon dont le coût d'un algorithme grandit avec la taille de la donnée. | A2 · S13 |
 | **Compteur** |  | *counter* | Variable qui compte les tours d'une boucle. | A1 · S04 |
 | **Condition** |  | *condition* | Expression qui vaut vrai ou faux et oriente l'exécution. | A1 · S03 |
 | **Congruence** |  | *congruence* | Deux entiers sont congrus modulo \(n\) s'ils ont le même reste dans la division par \(n\). | A1 · S07 |
@@ -77,6 +78,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Fermeture transitive** |  | *transitive closure* | Graphe contenant un arc \(i \to j\) chaque fois qu'il existe un chemin de \(i\) à \(j\). | A1 · S16 |
 | **Fonction** |  | *function* | Bloc de code nommé qui reçoit des paramètres et retourne un résultat. | A1 · S12 |
 | **Fonction de hachage** |  | *hash function* | Application qui associe à une donnée un petit nombre ; des collisions sont inévitables. | A1 · S11 |
+| **Force brute** |  | *brute force* | Méthode qui essaie toutes les possibilités une à une. | A2 · S15 |
 | **Formule explicite** |  | *explicit formula* | Écriture \(u_n = f(n)\) qui donne directement un terme en fonction de son rang. | A2 · S01 |
 | **Fraction** |  | *fraction* | Nombre rationnel exact (`Fraction` en Python), qui évite les arrondis. | A1 · S14 |
 | **Garde-fou** |  | *safeguard* | Limite du nombre d'itérations qui empêche une boucle de ne jamais s'arrêter. | A2 · S05 |
@@ -120,11 +122,13 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Nombre flottant** |  | *floating-point number* | Représentation approchée d'un réel en machine. | A1 · S18 |
 | **Nombre premier** |  | *prime number* | Entier supérieur ou égal à 2 divisible seulement par 1 et par lui-même. | A1 · S06 |
 | **Notation CIDR** | CIDR | *classless inter-domain routing* | Écriture `adresse/n` où \(n\) est le nombre de bits à 1 du masque. | A1 · S10 |
+| **Notation O** |  | *big-O notation* | Écriture qui donne l'ordre de grandeur d'un coût en ignorant constantes et termes secondaires. | A2 · S13 |
 | **Numéro d'inscription au répertoire** | NIR |  | Numéro de sécurité sociale ; sa clé est \(97 - (n \bmod 97)\). | A1 · S07 |
 | **Numéro de compte bancaire international** | IBAN | *international bank account number* | Identifiant de compte, validé par un calcul modulo 97. | A1 · S07 |
 | **Numéro international normalisé du livre** | ISBN | *international standard book number* | Identifiant de 13 chiffres d'un livre, dont le dernier est une clé de contrôle. | A1 · S07 |
 | **Octet** |  | *byte* | Groupe de 8 bits ; il représente un entier de 0 à 255. | A1 · S01 |
 | **Opérateur bit à bit** |  | *bitwise operator* | Opération appliquée à chaque bit de deux nombres (ET, OU, OU exclusif). | A1 · S03 |
+| **Opération de référence** |  | *basic operation* | Opération (comparaison, addition) qu'on compte pour mesurer le coût d'un algorithme. | A2 · S12 |
 | **Ou exclusif** |  | *exclusive or, XOR* | Vrai quand un seul des deux opérandes est vrai. | A1 · S08 |
 | **Palindrome** |  | *palindrome* | Mot qui se lit de la même façon dans les deux sens. | A2 · S08 |
 | **Paramètre** |  | *parameter* | Variable d'entrée d'une fonction. | A1 · S12 |
@@ -133,6 +137,7 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Partie entière** |  | *integer part* | Plus grand entier inférieur ou égal à un nombre. | A1 · S02 |
 | **Passerelle** |  | *gateway* | Routeur par lequel passent les paquets destinés à un autre réseau. | A1 · S10 |
 | **Pile d'appels** |  | *call stack* | Zone de mémoire qui garde les appels de fonction en attente, un cadre par appel. | A2 · S07 |
+| **Pire cas** |  | *worst case* | Donnée de taille fixée pour laquelle l'algorithme coûte le plus d'opérations. | A2 · S12 |
 | **Pivot** |  | *pivot* | Coefficient qu'on ramène à 1 pour éliminer les autres de sa colonne. | A1 · S14 |
 | **Plus grand commun diviseur** | PGCD | *greatest common divisor, GCD* | Plus grand entier qui divise deux entiers. | A1 · S05 |
 | **Plus petit commun multiple** | PPCM | *least common multiple, LCM* | Plus petit entier strictement positif multiple de deux entiers. | A1 · S05 |
@@ -140,6 +145,8 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Point fixe** |  | *fixed point* | Valeur \(L\) telle que \(L = f(L)\) : si la suite l'atteint, elle n'en bouge plus. | A2 · S05 |
 | **Porte NON-ET** | NAND | *NAND gate* | Fonction \(\overline{a \cdot b}\) ; à elle seule, elle permet de réaliser toutes les autres. | A1 · S10 |
 | **Porte NON-OU** | NOR | *NOR gate* | Fonction \(\overline{a + b}\) ; elle est aussi universelle. | A1 · S10 |
+| **Postcondition** |  | *postcondition* | Propriété que le résultat garantit quand l'algorithme se termine. | A2 · S11 |
+| **Précondition** |  | *precondition* | Condition que les données d'entrée doivent respecter pour que l'algorithme soit garanti. | A2 · S11 |
 | **Prédicat** |  | *predicate* | Énoncé dont la valeur de vérité dépend d'une ou plusieurs variables. | A1 · S09 |
 | **Premiers entre eux** |  | *coprime* | Deux entiers dont le PGCD vaut 1. | A1 · S05 |
 | **Principe des tiroirs** |  | *pigeonhole principle* | Si l'on range plus d'objets que de tiroirs, un tiroir en contient au moins deux. | A1 · S11 |
@@ -187,9 +194,11 @@ La colonne « Vu en » indique la séance où le mot apparaît pour la première
 | **Tranche** |  | *slice* | Partie d'une chaîne ou d'une liste, `s[a:b]` (borne b exclue). | A1 · S12 |
 | **Transitive** |  | *transitive* | Si \(x\) est lié à \(y\) et \(y\) à \(z\), alors \(x\) est lié à \(z\). | A1 · S11 |
 | **Tri fusion** |  | *merge sort* | Tri qui trie chaque moitié d'une liste puis fusionne les deux listes triées. | A2 · S09 |
+| **Tri par insertion** |  | *insertion sort* | Tri qui insère chaque élément à sa place dans la partie déjà triée. | A2 · S14 |
 | **Tri par sélection** |  | *selection sort* | Tri qui place successivement le minimum du reste du tableau. | A1 · S12 |
 | **Troncature** |  | *truncation* | Suppression des chiffres au-delà d'un rang donné, sans arrondir. | A1 · S02 |
 | **Type** |  | *type* | Nature d'une donnée : entier, réel, booléen, chaîne… | A1 · S03 |
 | **Variable** |  | *variable* | Nom associé à une valeur en mémoire. | A1 · S03 |
 | **Variable locale** |  | *local variable* | Variable qui n'existe que dans la fonction qui la crée. | A1 · S12 |
 | **Variant** |  | *variant* | Entier positif qui diminue à chaque tour et garantit l'arrêt d'une boucle. | A1 · S04 |
+| **Voyageur de commerce** |  | *travelling salesman problem* | Problème de trouver la plus courte tournée passant par tous les sites ; le nombre d'ordres possibles explose. | A2 · S15 |

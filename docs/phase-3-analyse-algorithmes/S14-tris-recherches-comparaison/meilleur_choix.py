@@ -1,0 +1,3 @@
+def meilleur_choix(n, k):
+    """"sequentielle" ou "tri+dicho" selon le cout."""
+    ...
