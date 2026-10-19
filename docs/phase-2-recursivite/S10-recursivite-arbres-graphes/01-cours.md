@@ -74,6 +74,18 @@ Un réseau est un **graphe** : on le représente par un dictionnaire qui associe
 g = {"A": ["B", "C"], "B": ["D"], "C": ["D", "E"], "D": [], "E": ["A"]}
 ```
 
+Chaque flèche va d'un sommet vers l'un de ses voisins :
+
+```mermaid
+flowchart LR
+    A((A)) --> B((B))
+    A --> C((C))
+    B --> D((D))
+    C --> D
+    C --> E((E))
+    E --> A
+```
+
 Le **parcours en profondeur** (DFS en anglais) explore un chemin **jusqu'au bout** avant de revenir en arrière.
 
 ```python
@@ -88,6 +100,18 @@ def dfs(g, sommet, visites=None):
 ```
 
 Depuis `"A"` : A, puis B, puis D (impasse, retour), puis C, puis E (dont le voisin A est déjà visité). L'ordre est `["A", "B", "D", "C", "E"]`.
+
+Le même parcours en image : le numéro donne l'ordre de visite, les flèches pleines sont celles que `dfs` suit, les flèches en pointillés mènent à un sommet **déjà visité** et sont ignorées.
+
+```mermaid
+flowchart LR
+    A(("A · 1")) --> B(("B · 2"))
+    B --> D(("D · 3"))
+    A --> C(("C · 4"))
+    C --> E(("E · 5"))
+    C -.-> D
+    E -.-> A
+```
 
 > [!WARNING]
 > Un graphe peut avoir des **cycles** (ici \(A \to C \to E \to A\)). Sans la liste `visites`, le parcours reviendrait à `"A"` indéfiniment (`RecursionError`). Le **variant** est le nombre de sommets **non encore visités**, qui décroît à chaque appel.
