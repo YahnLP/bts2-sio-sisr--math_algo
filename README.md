@@ -2,7 +2,7 @@
 
 Cours, exercices corrigés, TP Python et aide-mémoire des **19 séances** de mathématiques approfondies et d'algorithmique de 2e année (option SISR). Suite du dépôt de 1re année `bts1-sio-sisr-math_algo`.
 
-Auteur : **Yahn LE PRETTRE** – Formateur. Licence **CC BY-NC-SA 4.0** (voir `LICENSE`).
+Auteur : **Yahn LE PRETTRE** – Formateur. Licence **CC BY-NC-SA 4.0** (voir `LICENSE`). Utilisation dans une formation payante ou financée (CFA, OPCO) : accord préalable de l'auteur, voir `docs/ressources/licences.md`.
 
 > **Contenu proposé par l'enseignant, à valider** : le programme officiel de la 2e année n'a pas été relu pour ce dépôt (voir `docs/ressources/programme-2a.md`).
 
