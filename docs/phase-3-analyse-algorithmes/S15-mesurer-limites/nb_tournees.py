@@ -1,0 +1,3 @@
+def nb_tournees(n):
+    """(n-1)! : nombre d'ordres de visite, premier site fixe."""
+    ...

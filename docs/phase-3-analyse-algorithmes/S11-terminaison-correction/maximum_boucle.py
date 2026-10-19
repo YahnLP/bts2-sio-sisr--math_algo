@@ -1,0 +1,3 @@
+def maximum_boucle(L):
+    """Maximum de la liste non vide L, avec une boucle."""
+    ...

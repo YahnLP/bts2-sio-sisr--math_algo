@@ -1,0 +1,7 @@
+assert estime_ordre(lambda n: 7) == "O(1)"
+assert estime_ordre(lambda n: __import__('math').log2(n)) == "O(log n)"
+assert estime_ordre(lambda n: 3 * n + 5) == "O(n)"
+assert estime_ordre(lambda n: n * __import__('math').log2(n)) == "O(n log n)"
+assert estime_ordre(lambda n: n * n / 10) == "O(n^2)"
+assert estime_ordre(lambda n: n ** 3) == "O(n^3)"
+assert estime_ordre(lambda n: 2 ** n) == "O(2^n)"

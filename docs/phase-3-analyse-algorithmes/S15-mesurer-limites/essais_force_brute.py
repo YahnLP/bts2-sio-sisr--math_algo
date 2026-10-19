@@ -1,0 +1,3 @@
+def essais_force_brute(taille_alphabet, longueur):
+    """Nombre d'essais de la force brute."""
+    ...

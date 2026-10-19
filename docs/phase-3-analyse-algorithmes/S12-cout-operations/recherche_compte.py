@@ -1,0 +1,3 @@
+def recherche_compte(L, x):
+    """Renvoie (indice, nb_comparaisons), ou (-1, len(L)) si absent."""
+    ...

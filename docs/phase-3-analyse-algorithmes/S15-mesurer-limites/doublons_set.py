@@ -1,0 +1,3 @@
+def doublons_set(L):
+    """True si L contient un doublon (avec un ensemble)."""
+    ...

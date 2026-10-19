@@ -1,0 +1,3 @@
+def cout_recherches(n, k):
+    """Renvoie (cout sequentiel, cout tri + dichotomie)."""
+    ...

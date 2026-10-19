@@ -209,4 +209,14 @@ DATA = [
 ("Arborescence", None, "tree structure", "Structure en dossiers et sous-dossiers, ou plus généralement en arbre.", "A2 · S10"),
 ("Parcours en profondeur", "DFS", "depth-first search", "Parcours d'un graphe qui suit un chemin jusqu'au bout avant de revenir en arrière.", "A2 · S10"),
 ("Sommet atteignable", None, "reachable vertex", "Sommet auquel on peut arriver en suivant des liens depuis un sommet de départ.", "A2 · S10"),
+# --- A2 : phase 3
+("Précondition", None, "precondition", "Condition que les données d'entrée doivent respecter pour que l'algorithme soit garanti.", "A2 · S11"),
+("Postcondition", None, "postcondition", "Propriété que le résultat garantit quand l'algorithme se termine.", "A2 · S11"),
+("Opération de référence", None, "basic operation", "Opération (comparaison, addition) qu'on compte pour mesurer le coût d'un algorithme.", "A2 · S12"),
+("Pire cas", None, "worst case", "Donnée de taille fixée pour laquelle l'algorithme coûte le plus d'opérations.", "A2 · S12"),
+("Complexité", None, "complexity", "Mesure de la façon dont le coût d'un algorithme grandit avec la taille de la donnée.", "A2 · S13"),
+("Notation O", None, "big-O notation", "Écriture qui donne l'ordre de grandeur d'un coût en ignorant constantes et termes secondaires.", "A2 · S13"),
+("Tri par insertion", None, "insertion sort", "Tri qui insère chaque élément à sa place dans la partie déjà triée.", "A2 · S14"),
+("Force brute", None, "brute force", "Méthode qui essaie toutes les possibilités une à une.", "A2 · S15"),
+("Voyageur de commerce", None, "travelling salesman problem", "Problème de trouver la plus courte tournée passant par tous les sites ; le nombre d'ordres possibles explose.", "A2 · S15"),
 ]

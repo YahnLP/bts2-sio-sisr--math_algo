@@ -1,0 +1,3 @@
+def tours_division(n):
+    """Nombre de tours de: while n > 0: n = n // 2."""
+    ...

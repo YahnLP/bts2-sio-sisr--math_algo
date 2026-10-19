@@ -1,0 +1,5 @@
+assert doublons_compte([1, 2, 3, 4]) == (False, 6)
+assert doublons_compte([1, 2, 1, 4]) == (True, 2)
+assert doublons_compte([5, 5]) == (True, 1)
+assert doublons_compte([]) == (False, 0)
+assert doublons_compte(list(range(10))) == (False, 45)

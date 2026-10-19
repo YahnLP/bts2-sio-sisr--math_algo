@@ -1,0 +1,3 @@
+def ratio_doublement(f, n):
+    """Renvoie f(2n) / f(n)."""
+    ...

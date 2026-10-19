@@ -1,0 +1,3 @@
+def pgcd_boucle(a, b):
+    """PGCD par l'algorithme d'Euclide, avec une boucle."""
+    ...

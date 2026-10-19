@@ -1,0 +1,3 @@
+def somme_compte(n):
+    """Renvoie (s, nb_additions) pour la somme des i de 0 a n-1."""
+    ...

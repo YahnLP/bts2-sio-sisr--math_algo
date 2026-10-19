@@ -295,3 +295,141 @@ def dfs(g, sommet, visites=None):
 - Atteignables = sommets visités. DFS ne donne pas le plus court chemin.
 - Très grand graphe : pile explicite plutôt que récursivité (S16).
 
+## S11 · Terminaison, invariant et tests
+
+### Les deux questions
+
+| Question | Outil |
+|---|---|
+| Termine-t-il ? | **Variant** : entier, \(\ge 0\), strictement décroissant |
+| Est-il correct ? | **Invariant** : vrai au départ, conservé, utile à la sortie |
+
+Spécification : **précondition** (entrée) et **postcondition** (sortie).
+
+### Preuve en trois étapes
+
+1. Initialisation : l'invariant est vrai avant le premier tour.
+2. Conservation : vrai avant un tour, donc vrai après.
+3. Conclusion : invariant + condition d'arrêt = postcondition.
+
+### Modèles
+
+| Boucle | Variant | Invariant |
+|---|---|---|
+| `while n > 0: n //= 2` | `n` | — |
+| Somme `s += i` | `n - k` | \(s = k(k+1)/2\) |
+| Maximum | éléments restants | `m` = max des éléments examinés |
+| Puissance | `n - k` | \(p = x^k\) |
+| Euclide | `b` | \(\text{PGCD}(a, b)\) inchangé |
+
+### Tests
+
+Typique, taille minimale, répétitions, valeurs extrêmes, déjà ordonné, inversé, cas interdit. Un test réussi ne prouve rien pour les autres cas.
+
+## S12 · Coût en opérations
+
+### Compter
+
+| Structure | Coût |
+|---|---|
+| `for i in range(n)` | \(n\) |
+| Deux boucles imbriquées | \(n^2\) |
+| Boucle triangulaire | \(\dfrac{n(n-1)}{2}\) |
+| Division par 2 jusqu'à 1 | \(\lfloor\log_2 n\rfloor\) tours |
+
+### Recherche séquentielle (n éléments)
+
+| Cas | Comparaisons |
+|---|---|
+| Meilleur | 1 |
+| Pire | \(n\) |
+| Moyen | \((n+1)/2\) |
+
+### Méthode
+
+1. Choisir l'opération de référence.
+2. Exprimer le nombre de passages en fonction de \(n\).
+3. Raisonner sur le pire cas pour une garantie.
+4. Comparer sur des valeurs de \(n\) réalistes.
+
+## S13 · Complexité asymptotique
+
+### Définition
+
+\(f = O(g)\) : il existe \(c > 0\) et \(n_0\) tels que \(f(n) \le c\,g(n)\) pour \(n \ge n_0\).
+
+### Règles
+
+- Constantes multiplicatives supprimées.
+- Terme dominant conservé.
+- Boucles imbriquées : produit. Blocs successifs : somme (le plus grand l'emporte).
+
+### Classes et effet de ×2
+
+| Classe | ×2 sur \(n\) |
+|---|---|
+| \(O(1)\) | ×1 |
+| \(O(\log n)\) | +1 |
+| \(O(n)\) | ×2 |
+| \(O(n\log n)\) | un peu plus de ×2 |
+| \(O(n^2)\) | ×4 |
+| \(O(2^n)\) | coût élevé au carré |
+
+### Durée
+
+\[ \text{durée} = \frac{\text{opérations}}{\text{opérations par seconde}} \]
+
+Toujours annoncer l'**hypothèse** de vitesse.
+
+## S14 · Tris et recherches
+
+### Tris
+
+| Tri | Principe | Comparaisons |
+|---|---|---|
+| Sélection | échanger avec le minimum du reste | toujours \(n(n-1)/2\) |
+| Insertion | insérer dans la partie triée | de \(n-1\) à \(n(n-1)/2\) |
+| Fusion | couper, trier, fusionner | \(O(n\log n)\) |
+
+### Recherches
+
+| Méthode | Pire cas |
+|---|---|
+| Séquentielle | \(n\) |
+| Dichotomique (liste triée) | \(\lfloor\log_2 n\rfloor + 1\) |
+
+### Trier avant de chercher ?
+
+\[ k\,n \quad\text{contre}\quad n\log_2 n + k(\lfloor\log_2 n\rfloor + 1) \]
+
+Pour \(n = 1000\), le tri devient rentable dès \(k = 11\).
+
+## S15 · Mesurer et limites
+
+### Mesure
+
+```python
+import time
+d = time.perf_counter()
+f()
+duree = time.perf_counter() - d
+```
+
+Répéter, garder le **minimum**. Comparer seulement sur la même machine.
+
+### Test de doublement
+
+Rapport \(t(2n)/t(n)\) : \(\approx 2\) linéaire, \(\approx 4\) quadratique, \(\approx 8\) cubique.
+
+### Explosions
+
+| Situation | Nombre |
+|---|---|
+| Force brute | \(a^L\) |
+| Tournées | \((n-1)!\) |
+| Durée | \(\dfrac{\text{essais}}{\text{vitesse}}\) (hypothèse annoncée) |
+
+### Gagner du temps
+
+Ensemble (`set`), mémoïsation, réduction de l'espace de recherche.
+
