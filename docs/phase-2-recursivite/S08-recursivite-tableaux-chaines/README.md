@@ -6,7 +6,7 @@
 | **Séance** | S08 (séance 8 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Récursivité sur tableaux et chaînes : prérequis de S09 et S10. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
-| **Chapitre du programme** | Récursivité – tableaux, chaînes (proposé, à valider) |
+| **Chapitre du programme** | Récursivité – tableaux, chaînes |
 | **Prérequis** | S06 ; S07 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |
 
@@ -56,7 +56,6 @@ Valider un format (palindrome, chiffres), parcourir une liste d'adresses ou de j
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le rattachement au programme officiel est une **proposition à valider** (voir [Programme de la 2e année](../../ressources/programme-2a.md)).
 - Exemples chiffrés recalculés par programme ; scripts du TP validés (solution réussie, squelette en échec).
 
 </details>

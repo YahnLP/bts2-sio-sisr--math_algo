@@ -6,7 +6,7 @@
 | **Séance** | S10 (séance 10 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Arbres et parcours : prérequis de S11 et S16. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
-| **Chapitre du programme** | Récursivité – arbres, parcours (proposé, à valider) |
+| **Chapitre du programme** | Récursivité – arbres, parcours |
 | **Prérequis** | S08 ; S09 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |
 
@@ -56,7 +56,6 @@ Calculer la taille d'un dossier, lister les fichiers d'une arborescence, savoir 
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le rattachement au programme officiel est une **proposition à valider** (voir [Programme de la 2e année](../../ressources/programme-2a.md)).
 - Exemples chiffrés recalculés par programme ; scripts du TP validés (solution réussie, squelette en échec).
 
 </details>

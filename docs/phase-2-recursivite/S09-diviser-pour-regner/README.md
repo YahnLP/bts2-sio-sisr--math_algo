@@ -6,7 +6,7 @@
 | **Séance** | S09 (séance 9 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Diviser pour régner : prérequis de S10 ; sert aux tris de S14. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
-| **Chapitre du programme** | Récursivité – diviser pour régner (proposé, à valider) |
+| **Chapitre du programme** | Récursivité – diviser pour régner |
 | **Prérequis** | S08 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |
 
@@ -56,7 +56,6 @@ Retrouver une adresse dans une liste triée de plusieurs millions d'entrées, tr
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le rattachement au programme officiel est une **proposition à valider** (voir [Programme de la 2e année](../../ressources/programme-2a.md)).
 - Exemples chiffrés recalculés par programme ; scripts du TP validés (solution réussie, squelette en échec).
 
 </details>

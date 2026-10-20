@@ -6,7 +6,7 @@
 | **Séance** | S07 (séance 7 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Récursivité et pile d'appels : prérequis de S08 ; repris en S16. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
-| **Chapitre du programme** | Récursivité – suites, pile d'appels (proposé, à valider) |
+| **Chapitre du programme** | Récursivité – suites, pile d'appels |
 | **Prérequis** | S06 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |
 
@@ -56,7 +56,6 @@ Comprendre pourquoi un programme récursif peut devenir lent ou s'arrêter sur u
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le rattachement au programme officiel est une **proposition à valider** (voir [Programme de la 2e année](../../ressources/programme-2a.md)).
 - Exemples chiffrés recalculés par programme ; scripts du TP validés (solution réussie, squelette en échec).
 
 </details>

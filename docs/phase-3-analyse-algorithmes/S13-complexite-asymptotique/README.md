@@ -6,7 +6,7 @@
 | **Séance** | S13 (séance 13 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Complexité asymptotique : prérequis de S14. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
-| **Chapitre du programme** | Analyse d'algorithme – complexité (proposé, à valider) |
+| **Chapitre du programme** | Analyse d'algorithme – complexité |
 | **Prérequis** | S12 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |
 
@@ -56,7 +56,6 @@ Savoir dire si un traitement « passera à l'échelle » quand le parc ou les jo
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le rattachement au programme officiel est une **proposition à valider** (voir [Programme de la 2e année](../../ressources/programme-2a.md)).
 - Exemples chiffrés recalculés par programme ; scripts du TP validés (solution réussie, squelette en échec).
 
 </details>

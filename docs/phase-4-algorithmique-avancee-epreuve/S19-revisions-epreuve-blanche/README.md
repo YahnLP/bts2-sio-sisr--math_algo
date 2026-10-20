@@ -6,7 +6,7 @@
 | **Séance** | S19 (séance 19 sur 19) – Phase 4 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Révisions et épreuve blanche. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
-| **Chapitre du programme** | Tous les chapitres de la 2e année (proposé, à valider) |
+| **Chapitre du programme** | Tous les chapitres de la 2e année |
 | **Prérequis** | S18 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |
 
@@ -56,7 +56,6 @@ Se tester en conditions proches d'une épreuve, repérer ses points faibles et p
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le rattachement au programme officiel est une **proposition à valider** (voir [Programme de la 2e année](../../ressources/programme-2a.md)).
 - Exemples chiffrés recalculés par programme ; scripts du TP validés (solution réussie, squelette en échec).
 
 </details>
