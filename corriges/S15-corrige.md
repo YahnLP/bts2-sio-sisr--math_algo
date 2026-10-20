@@ -7,7 +7,7 @@
 3. \(26^{12}\) ; ≈ 1 105 jours ≈ 3,03 ans.
 4. \(62^{12}\) ; facteur ≈ 33 800.
 5. 5 040 ; 362 880 ; 87 178 291 200.
-6. Quasi linéaire contre quadratique ; coût en mémoire.
+6. ​Quasi linéaire contre quadratique ; coût en mémoire.
 
 ## TP Python – solutions
 

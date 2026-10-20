@@ -8,7 +8,7 @@
 4. \(u_{n+1} - u_n = 2n - 5\) ; décroît jusqu'à \(u_3 = -9\) puis croît.
 5. \(u = 47 = u_4\).
 6. \(u_n = 4 + 7n\) ; \(u_{100} = 704\).
-7. \(2, 3, 5, 8, 13\) ; garder deux termes.
+7. \(2, 3, 5, 8, 13\) ; ​garder deux termes.
 
 ## TP Python – solutions
 

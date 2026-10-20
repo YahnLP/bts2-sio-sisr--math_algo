@@ -4,7 +4,7 @@
 
 1. Variant `n` ; 7 tours.
 2. Boucle infinie ; `while i < 10`.
-3. \(s = k(k+1)/2\) après \(k\) tours.
+3. \(s = k(k+1)/2\) ​après \(k\) tours.
 4. `m` = plus grand des \(k\) premiers.
 5. \(p = x^k\).
 6. Six tests dont un élément, répétitions, négatifs.

@@ -7,7 +7,7 @@
 3. A → C (1 saut).
 4. S 0, B 2, A 5, C 6.
 5. Distances fixées trop tôt.
-6. Dijkstra ; largeur.
+6. Dijkstra ; ​largeur.
 
 ## TP Python – solutions
 

@@ -8,7 +8,7 @@
 4. 21 ; variant `b`.
 5. 11 appels ; \(n + 1\).
 6. `"1101"` ; `"1010"`.
-7. Version itérative ; récursive risque `RecursionError` pour \(n = 5\,000\).
+7. ​Version itérative ; récursive risque `RecursionError` pour \(n = 5\,000\).
 
 ## TP Python – solutions
 

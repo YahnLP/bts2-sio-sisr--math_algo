@@ -7,7 +7,7 @@
 3. 12 s ; 300 s.
 4. \(O(n^2)\) ; \(O(n\log n)\).
 5. ≈ 13,33.
-6. ≈ 13 344 jours ≈ 36,5 ans (hypothèse \(10^9\) op/s).
+6. ≈ 13 344 ​jours ≈ 36,5 ans (hypothèse \(10^9\) op/s).
 
 ## TP Python – solutions
 
