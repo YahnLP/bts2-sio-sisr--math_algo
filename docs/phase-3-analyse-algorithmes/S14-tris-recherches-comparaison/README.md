@@ -56,7 +56,6 @@ Décider s'il faut trier un fichier de comptes avant d'y faire de nombreuses rec
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le rattachement au programme officiel est une **proposition à valider** (voir [Programme de la 2e année](../../ressources/programme-2a.md)).
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Exemples chiffrés recalculés par programme ; scripts du TP validés (solution réussie, squelette en échec).
 
 </details>
