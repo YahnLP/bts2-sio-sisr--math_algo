@@ -5,7 +5,7 @@
 1. (a) \(\to 0\) ; (b) \(\to +\infty\) ; (c) \(\to -\infty\) ; (d) aucune limite.
 2. \(10, 15, 17{,}5, 18{,}75\) ; \(L = 20\) ; \(u_n = 20 - 20 \times 0{,}5^n\) ; \(u_{10} = 19{,}98046875\).
 3. Rang 8.
-4. \(L = 150\) Go ; 120 Go insuffisant, plein au mois 6 ; 200 Go suffit.
+4. \(L = 150\) Go ; 120 Go ​insuffisant, plein au mois 6 ; 200 Go suffit.
 5. \(n = 45\).
 6. La boucle ne s'arrête pas (limite 20 < 25) ; garde-fou.
 

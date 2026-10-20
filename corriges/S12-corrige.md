@@ -7,7 +7,7 @@
 3. 1 ; \(n\) ; \((n+1)/2\).
 4. 9 ; 19.
 5. \(n = 32\).
-6. ≈ 0,5 s ; ≈ 5,79 jours (hypothèse fictive de 1 µs par comparaison).
+6. ≈ 0,5 s ; ≈ 5,79 jours (hypothèse fictive de 1 µs par ​comparaison).
 
 ## TP Python – solutions
 

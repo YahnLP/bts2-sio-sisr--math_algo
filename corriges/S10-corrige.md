@@ -4,7 +4,7 @@
 
 1. `archives` 1 150 ; `docs` 1 300 ; racine 2 105.
 2. 6 fichiers ; profondeur 3.
-3. Liste des 6 chemins.
+3. Liste des 6 ​chemins.
 4. A, B, D, C, E ; {B, D}.
 5. Récursion infinie (`RecursionError`).
 6. Depuis R1 : R1, R2, R3, R4 ; depuis R5 : toutes.

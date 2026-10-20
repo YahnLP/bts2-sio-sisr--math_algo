@@ -3,7 +3,7 @@
 ## Exercices
 
 1. 10 comparaisons ; `[1, 2, 5, 7, 9]`.
-2. 7 comparaisons.
+2. 7 ​comparaisons.
 3. 5 ; 15.
 4. 10 ; 20.
 5. \(k = 11\).

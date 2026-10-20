@@ -7,7 +7,7 @@
 3. \(1, 2, 3, 5, 8, 13, 21, 34, 55\) ; \(C(6) = 25\), \(C(7) = 41\).
 4. `fib(3)` 2 fois ; `fib(2)` 3 fois.
 5. 59 appels.
-6. 5 001 cadres : `RecursionError` ; version itérative.
+6. 5 001 cadres : `RecursionError` ; ​version itérative.
 7. Tableau \(a, b\) ; `fib_iter(6) = 8`.
 
 ## TP Python – solutions

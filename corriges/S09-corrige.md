@@ -4,7 +4,7 @@
 
 1. 23 : indice 5, 3 comparaisons ; 40 : absent, 4 comparaisons.
 2. 10 ; 20 ; 1 000 et 1 000 000 au pire.
-3. 5 multiplications contre 10.
+3. 5 multiplications ​contre 10.
 4. [1, 2, 5, 6, 7, 9, 10].
 5. [1, 2, 5, 7, 9].
 6. 15 appels ; 4 niveaux.

@@ -7,7 +7,7 @@
 3. `"radar"` vrai ; `"reseau"` faux ; variant `len(s)`.
 4. `"cba"`.
 5. 3.
-6. 499 500 éléments copiés ; 0 avec indice ; profondeur 1 001 > limite.
+6. 499 500 éléments copiés ; 0 avec indice ; ​profondeur 1 001 > limite.
 7. 8.
 
 ## TP Python – solutions

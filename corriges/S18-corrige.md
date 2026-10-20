@@ -5,7 +5,7 @@
 1. Entrées, sortie et exemple précisés.
 2. `maxima` puis `machines_chaudes`.
 3. \(m \times n\) contre \(n\).
-4. Vide, un échec, un OK, égalité, mélange OK/ECHEC.
+4. Vide, un ​échec, un OK, égalité, mélange OK/ECHEC.
 5. Idée, invariant, coût.
 6. Elle compte aussi les `OK`.
 

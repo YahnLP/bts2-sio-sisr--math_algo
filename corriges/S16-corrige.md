@@ -6,7 +6,7 @@
 2. `a`, `b` ; reste `c`, `d`.
 3. Oui ; non ; non.
 4. `{"r": 1, "e": 2, "s": 1, "a": 1, "u": 1}`.
-5. Ordre de fin : 1, 2, 0.
+5. ​Ordre de fin : 1, 2, 0.
 6. \(10^{10}\) contre ≈ \(10^5\).
 
 ## TP Python – solutions
