@@ -56,7 +56,6 @@ Retrouver une adresse dans une liste triée de plusieurs millions d'entrées, tr
 <summary>Notes pour l'enseignant</summary>
 
 - **Programme :** le rattachement au programme officiel est une **proposition à valider** (voir [Programme de la 2e année](../../ressources/programme-2a.md)).
-- **Corrigé :** dans `corriges/` à la racine du dépôt (hors du site publié).
 - Exemples chiffrés recalculés par programme ; scripts du TP validés (solution réussie, squelette en échec).
 
 </details>

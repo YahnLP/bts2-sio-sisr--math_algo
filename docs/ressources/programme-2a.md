@@ -5,7 +5,7 @@
 
 ## Principe
 
-Quatre phases, 19 séances de 4 h, dans le même format qu'en 1re année : fiche, cours, exercices, TP Python avec tests automatiques, aide-mémoire. Les corrigés sont hors du site.
+Quatre phases, 19 séances de 4 h, dans le même format qu'en 1re année : fiche, cours, exercices, TP Python avec tests automatiques, aide-mémoire.
 
 ## Répartition
 
