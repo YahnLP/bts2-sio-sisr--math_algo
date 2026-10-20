@@ -6,7 +6,7 @@
 | **Séance** | S03 (séance 3 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Suites géométriques : prérequis de S04 et S05 ; sert à étudier le coût en S12 et S13. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
-| **Chapitre du programme** | Suites numériques – suites géométriques (proposé, à valider) |
+| **Chapitre du programme** | Suites numériques – suites géométriques |
 | **Prérequis** | S02 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |
 
@@ -56,7 +56,6 @@ Trafic réseau qui augmente de 20 % par mois, volume de sauvegardes qui double, 
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le rattachement au programme officiel est une **proposition à valider** (voir [Programme de la 2e année](../../ressources/programme-2a.md)).
 - Exemples chiffrés recalculés par programme ; scripts du TP validés (solution réussie, squelette en échec).
 
 </details>

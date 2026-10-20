@@ -6,7 +6,7 @@
 | **Séance** | S17 (séance 17 sur 19) – Phase 4 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Graphes : parcours et plus court chemin ; prépare S18. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
-| **Chapitre du programme** | Algorithmique avancée – graphes (proposé, à valider) |
+| **Chapitre du programme** | Algorithmique avancée – graphes |
 | **Prérequis** | S16 ; graphes de la 1re année |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |
 
@@ -56,7 +56,6 @@ Trouver le chemin le plus court (en sauts ou en coût) entre deux équipements d
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le rattachement au programme officiel est une **proposition à valider** (voir [Programme de la 2e année](../../ressources/programme-2a.md)).
 - Exemples chiffrés recalculés par programme ; scripts du TP validés (solution réussie, squelette en échec).
 
 </details>

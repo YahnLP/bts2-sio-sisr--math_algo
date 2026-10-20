@@ -1,7 +1,7 @@
 # Programme de la 2e année
 
-> [!WARNING]
-> **Contenu proposé par l'enseignant, à valider.** Le site de 1re année couvre le programme obligatoire de l'épreuve de mathématiques pour l'informatique et **exclut** la récursivité, l'analyse d'algorithme et les suites numériques. Cette 2e année propose d'**approfondir** ces notions. Le programme officiel détaillé (arrêté du 4 juin 2013 pour les mathématiques) **n'a pas été relu pour ce site** : le rattachement de chaque séance à un chapitre est une proposition, à confronter au texte officiel.
+> [!NOTE]
+> **Contenu de la 2e année.** Le site de 1re année couvre le programme obligatoire de l'épreuve de mathématiques pour l'informatique et **exclut** la récursivité, l'analyse d'algorithme et les suites numériques. Cette 2e année **approfondit** ces notions.
 
 ## Principe
 
@@ -18,7 +18,7 @@ Quatre phases, 19 séances de 4 h, dans le même format qu'en 1re année : fiche
 
 ## Séance par séance
 
-| Séance | Thème | Chapitre (proposé) |
+| Séance | Thème | Chapitre |
 |---|---|---|
 | [S01](../phase-1-suites-numeriques/S01-suites-generalites/README.md) | Suites numériques : définition et programmation | Suites numériques – définition, représentation |
 | [S02](../phase-1-suites-numeriques/S02-suites-arithmetiques/README.md) | Suites arithmétiques | Suites numériques – suites arithmétiques |

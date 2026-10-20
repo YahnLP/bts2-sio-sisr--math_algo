@@ -20,7 +20,7 @@
 > **Une méthode en quatre temps.** On **pose** le problème, on **calcule**, on **vérifie** (par un autre chemin ou par un programme), puis on **conclut** par une phrase.
 
 > [!WARNING]
-> Le contenu de cette 2e année est une **proposition de l'enseignant**, à confronter au programme officiel (voir [Programme de la 2e année](ressources/programme-2a.md)).
+> Cette 2e année approfondit le programme obligatoire (voir [Programme de la 2e année](ressources/programme-2a.md)).
 
 ## Choisir une phase
 

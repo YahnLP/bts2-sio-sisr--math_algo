@@ -6,7 +6,7 @@
 | **Séance** | S02 (séance 2 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Suites arithmétiques : prérequis de S03 ; la somme arithmétique sert à compter les opérations en S13. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
-| **Chapitre du programme** | Suites numériques – suites arithmétiques (proposé, à valider) |
+| **Chapitre du programme** | Suites numériques – suites arithmétiques |
 | **Prérequis** | S01 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |
 
@@ -56,7 +56,6 @@ Journaux qui grossissent d'une quantité fixe, plages d'adresses régulières, t
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le rattachement au programme officiel est une **proposition à valider** (voir [Programme de la 2e année](../../ressources/programme-2a.md)).
 - Exemples chiffrés recalculés par programme ; scripts du TP validés (solution réussie, squelette en échec).
 
 </details>

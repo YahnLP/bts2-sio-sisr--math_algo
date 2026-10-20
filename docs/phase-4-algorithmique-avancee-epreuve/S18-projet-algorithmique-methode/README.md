@@ -6,7 +6,7 @@
 | **Séance** | S18 (séance 18 sur 19) – Phase 4 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Méthode « de l'énoncé au programme testé » : prépare directement l'épreuve blanche. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
-| **Chapitre du programme** | Algorithmique avancée – démarche (proposé, à valider) |
+| **Chapitre du programme** | Algorithmique avancée – démarche |
 | **Prérequis** | S01 à S17 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |
 
@@ -56,7 +56,6 @@ Aborder un problème d'exploitation nouveau (analyse d'un journal de connexions)
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le rattachement au programme officiel est une **proposition à valider** (voir [Programme de la 2e année](../../ressources/programme-2a.md)).
 - Exemples chiffrés recalculés par programme ; scripts du TP validés (solution réussie, squelette en échec).
 
 </details>

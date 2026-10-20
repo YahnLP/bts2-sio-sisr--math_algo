@@ -2,7 +2,7 @@
 
 | Ressource | Description |
 |---|---|
-| [Programme de la 2e année](programme-2a.md) | Contenu, répartition des séances, ce qui est à valider |
+| [Programme de la 2e année](programme-2a.md) | Contenu et répartition des séances |
 | [Parcours cœur et complément](parcours-coeur-complement.md) | Quelles séances garder en priorité quand le temps manque |
 | [Formulaire](formulaire.md) | Tous les aide-mémoire réunis sur une page |
 | [Outils](outils.md) | Python dans le navigateur, formules, calculatrice |

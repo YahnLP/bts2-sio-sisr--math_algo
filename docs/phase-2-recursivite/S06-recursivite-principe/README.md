@@ -6,7 +6,7 @@
 | **Séance** | S06 (séance 6 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Récursivité, principe : prérequis de S07 à S09 et de S11. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
-| **Chapitre du programme** | Récursivité – principe, cas de base (proposé, à valider) |
+| **Chapitre du programme** | Récursivité – principe, cas de base |
 | **Prérequis** | S05 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |
 
@@ -56,7 +56,6 @@ Algorithme d'Euclide, parcours d'un dossier dans ses sous-dossiers, conversion d
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le rattachement au programme officiel est une **proposition à valider** (voir [Programme de la 2e année](../../ressources/programme-2a.md)).
 - Exemples chiffrés recalculés par programme ; scripts du TP validés (solution réussie, squelette en échec).
 
 </details>

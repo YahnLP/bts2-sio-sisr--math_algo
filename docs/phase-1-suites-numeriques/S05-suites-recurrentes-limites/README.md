@@ -6,7 +6,7 @@
 | **Séance** | S05 (séance 5 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Comportement à long terme et seuils : prérequis de S06 (suites récurrentes, terminaison d'une boucle). Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
-| **Chapitre du programme** | Suites numériques – limites, suites récurrentes (proposé, à valider) |
+| **Chapitre du programme** | Suites numériques – limites, suites récurrentes |
 | **Prérequis** | S03 ; S04 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |
 
@@ -56,7 +56,6 @@ Savoir si un espace de stockage finira par saturer ou se stabilise, estimer le m
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le rattachement au programme officiel est une **proposition à valider** (voir [Programme de la 2e année](../../ressources/programme-2a.md)).
 - Exemples chiffrés recalculés par programme ; scripts du TP validés (solution réussie, squelette en échec).
 
 </details>

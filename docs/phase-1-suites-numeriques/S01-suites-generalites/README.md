@@ -6,7 +6,7 @@
 | **Séance** | S01 (séance 1 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Suites par récurrence : prérequis de S02 et de S06, S07 (récurrence) ; repris en S18 et S19. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
-| **Chapitre du programme** | Suites numériques – définition, représentation (proposé, à valider) |
+| **Chapitre du programme** | Suites numériques – définition, représentation |
 | **Prérequis** | S04 de la 1re année (boucles) |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |
 
@@ -56,7 +56,6 @@ Prévoir l'occupation d'un disque mois après mois, le nombre de sauvegardes con
 <details markdown="1">
 <summary>Notes pour l'enseignant</summary>
 
-- **Programme :** le rattachement au programme officiel est une **proposition à valider** (voir [Programme de la 2e année](../../ressources/programme-2a.md)).
 - Exemples chiffrés recalculés par programme ; scripts du TP validés (solution réussie, squelette en échec).
 
 </details>

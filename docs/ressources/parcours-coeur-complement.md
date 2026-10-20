@@ -1,9 +1,9 @@
 # Parcours « cœur » et « complément »
 
-Les 19 séances de 4 h représentent **76 h** par an. Pour mémoire, la grille sous statut scolaire (annexe III.A du référentiel) prévoit en deuxième année **72 h** de mathématiques pour l'informatique (enseignement obligatoire) et **48 h** de mathématiques approfondies (enseignement facultatif). Le contenu de ce site est **proposé par l'enseignant** et ne correspond pas au programme obligatoire (voir [Programme de la 2e année](programme-2a.md)) : le cadre dans lequel il est enseigné reste à valider. Quand le temps manque, ce parcours indique **quelles séances garder en priorité**.
+Les 19 séances de 4 h représentent **76 h** par an. Pour mémoire, la grille sous statut scolaire (annexe III.A du référentiel) prévoit en deuxième année **72 h** de mathématiques pour l'informatique (enseignement obligatoire) et **48 h** de mathématiques approfondies (enseignement facultatif). Le contenu de ce site ne correspond pas au programme obligatoire (voir [Programme de la 2e année](programme-2a.md)). Quand le temps manque, ce parcours indique **quelles séances garder en priorité**.
 
 > [!NOTE]
-> Ce classement est une **proposition de l'auteur, à valider** par l'équipe pédagogique. Il ne retire rien du site : chaque séance reste disponible, et son statut est rappelé dans sa fiche.
+> Il ne retire rien du site : chaque séance reste disponible, et son statut est rappelé dans sa fiche.
 
 ## Pourquoi un seul complément
 
