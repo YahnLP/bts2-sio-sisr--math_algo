@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – mathématiques approfondies et algorithmique |
 | **Séance** | S11 (séance 11 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Terminaison et correction : prérequis de S12 ; cité par S18. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Chapitre du programme** | Analyse d'algorithme – terminaison, correction (proposé, à valider) |
 | **Prérequis** | S10 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |

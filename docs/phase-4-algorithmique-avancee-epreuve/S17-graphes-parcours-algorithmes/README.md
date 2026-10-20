@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – mathématiques approfondies et algorithmique |
 | **Séance** | S17 (séance 17 sur 19) – Phase 4 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Graphes : parcours et plus court chemin ; prépare S18. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Chapitre du programme** | Algorithmique avancée – graphes (proposé, à valider) |
 | **Prérequis** | S16 ; graphes de la 1re année |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |

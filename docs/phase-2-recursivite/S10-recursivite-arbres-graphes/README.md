@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – mathématiques approfondies et algorithmique |
 | **Séance** | S10 (séance 10 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Arbres et parcours : prérequis de S11 et S16. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Chapitre du programme** | Récursivité – arbres, parcours (proposé, à valider) |
 | **Prérequis** | S08 ; S09 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |

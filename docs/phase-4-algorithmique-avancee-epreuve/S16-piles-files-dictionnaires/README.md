@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – mathématiques approfondies et algorithmique |
 | **Séance** | S16 (séance 16 sur 19) – Phase 4 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Piles, files, dictionnaires : prérequis de S17. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Chapitre du programme** | Algorithmique avancée – structures de données (proposé, à valider) |
 | **Prérequis** | S10 ; S14 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |

@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – mathématiques approfondies et algorithmique |
 | **Séance** | S04 (séance 4 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Sommes et applications : prérequis de S05 (récurrence « pourcentage plus ajout »). Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Chapitre du programme** | Suites numériques – applications (proposé, à valider) |
 | **Prérequis** | S02 ; S03 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |

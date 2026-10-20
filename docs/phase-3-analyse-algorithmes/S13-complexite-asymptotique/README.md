@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – mathématiques approfondies et algorithmique |
 | **Séance** | S13 (séance 13 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Complexité asymptotique : prérequis de S14. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Chapitre du programme** | Analyse d'algorithme – complexité (proposé, à valider) |
 | **Prérequis** | S12 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |
