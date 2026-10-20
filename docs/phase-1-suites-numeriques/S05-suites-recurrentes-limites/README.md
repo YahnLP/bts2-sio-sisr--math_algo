@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – mathématiques approfondies et algorithmique |
 | **Séance** | S05 (séance 5 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Comportement à long terme et seuils : prérequis de S06 (suites récurrentes, terminaison d'une boucle). Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Chapitre du programme** | Suites numériques – limites, suites récurrentes (proposé, à valider) |
 | **Prérequis** | S03 ; S04 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |

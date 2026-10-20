@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – mathématiques approfondies et algorithmique |
 | **Séance** | S18 (séance 18 sur 19) – Phase 4 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Méthode « de l'énoncé au programme testé » : prépare directement l'épreuve blanche. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Chapitre du programme** | Algorithmique avancée – démarche (proposé, à valider) |
 | **Prérequis** | S01 à S17 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |

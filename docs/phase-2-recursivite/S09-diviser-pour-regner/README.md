@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – mathématiques approfondies et algorithmique |
 | **Séance** | S09 (séance 9 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Diviser pour régner : prérequis de S10 ; sert aux tris de S14. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Chapitre du programme** | Récursivité – diviser pour régner (proposé, à valider) |
 | **Prérequis** | S08 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |

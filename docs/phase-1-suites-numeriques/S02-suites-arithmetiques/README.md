@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – mathématiques approfondies et algorithmique |
 | **Séance** | S02 (séance 2 sur 19) – Phase 1 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Suites arithmétiques : prérequis de S03 ; la somme arithmétique sert à compter les opérations en S13. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Chapitre du programme** | Suites numériques – suites arithmétiques (proposé, à valider) |
 | **Prérequis** | S01 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |

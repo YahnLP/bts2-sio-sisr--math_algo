@@ -7,11 +7,11 @@
 
 ## Progression
 
-| Séance | Semaine | Thème | Chapitre du programme (proposé) | Statut |
-|---|---|---|---|---|
-| S16 | 16 | [Piles, files et dictionnaires](S16-piles-files-dictionnaires/README.md) | Algorithmique avancée – structures de données | **à valider** |
-| S17 | 17 | [Graphes en Python : parcours et plus court chemin](S17-graphes-parcours-algorithmes/README.md) | Algorithmique avancée – graphes | **à valider** |
-| S18 | 18 | [Méthode : de l'énoncé au programme testé](S18-projet-algorithmique-methode/README.md) | Algorithmique avancée – démarche | **à valider** |
-| S19 | 19 | [Révisions et épreuve blanche](S19-revisions-epreuve-blanche/README.md) | Tous les chapitres de la 2e année | **à valider** |
+| Séance | Semaine | Thème | Chapitre du programme (proposé) | Parcours | Statut |
+|---|---|---|---|---|---|
+| S16 | 16 | [Piles, files et dictionnaires](S16-piles-files-dictionnaires/README.md) | Algorithmique avancée – structures de données | **Cœur** | **à valider** |
+| S17 | 17 | [Graphes en Python : parcours et plus court chemin](S17-graphes-parcours-algorithmes/README.md) | Algorithmique avancée – graphes | **Cœur** | **à valider** |
+| S18 | 18 | [Méthode : de l'énoncé au programme testé](S18-projet-algorithmique-methode/README.md) | Algorithmique avancée – démarche | **Cœur** | **à valider** |
+| S19 | 19 | [Révisions et épreuve blanche](S19-revisions-epreuve-blanche/README.md) | Tous les chapitres de la 2e année | **Cœur** | **à valider** |
 
 Les numéros de semaine sont ceux de la séquence (semaine 01 à 19) : ils ne correspondent pas à des dates, les 19 semaines d'alternance étant réparties sur l'année.

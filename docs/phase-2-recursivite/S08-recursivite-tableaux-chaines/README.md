@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – mathématiques approfondies et algorithmique |
 | **Séance** | S08 (séance 8 sur 19) – Phase 2 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Récursivité sur tableaux et chaînes : prérequis de S09 et S10. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Chapitre du programme** | Récursivité – tableaux, chaînes (proposé, à valider) |
 | **Prérequis** | S06 ; S07 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |

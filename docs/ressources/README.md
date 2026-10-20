@@ -3,6 +3,7 @@
 | Ressource | Description |
 |---|---|
 | [Programme de la 2e année](programme-2a.md) | Contenu, répartition des séances, ce qui est à valider |
+| [Parcours cœur et complément](parcours-coeur-complement.md) | Quelles séances garder en priorité quand le temps manque |
 | [Formulaire](formulaire.md) | Tous les aide-mémoire réunis sur une page |
 | [Outils](outils.md) | Python dans le navigateur, formules, calculatrice |
 | [Glossaire](glossaire.md) | Tous les mots techniques expliqués simplement, avec la séance où ils apparaissent |

@@ -5,6 +5,7 @@
 | **Niveau** | BTS SIO option SISR, 2e année – mathématiques approfondies et algorithmique |
 | **Séance** | S14 (séance 14 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
+| **Parcours** | **Cœur** – Tris et recherches : prérequis de S16. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |
 | **Chapitre du programme** | Analyse d'algorithme – tris, recherches (proposé, à valider) |
 | **Prérequis** | S13 |
 | **Outils** | Papier, calculatrice, éditeur Python intégré au site |
