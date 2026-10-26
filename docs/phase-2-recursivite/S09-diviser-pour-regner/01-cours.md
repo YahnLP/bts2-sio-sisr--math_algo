@@ -1,6 +1,6 @@
 # Cours – Diviser pour régner
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S09 – à lire avant les [exercices](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S09 – à lire avant les [exercices](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S06 à S08 (récursivité, listes, variant).

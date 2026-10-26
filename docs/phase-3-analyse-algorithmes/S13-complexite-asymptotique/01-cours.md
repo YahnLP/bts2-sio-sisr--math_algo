@@ -1,6 +1,6 @@
 # Cours – Complexité asymptotique
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S13 – à lire avant les [exercices](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S13 – à lire avant les [exercices](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** coût en opérations (S12) ; \(\log_2\) et puissances de 2.

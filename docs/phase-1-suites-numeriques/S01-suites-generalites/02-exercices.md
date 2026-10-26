@@ -1,6 +1,6 @@
 # Exercices – Suites : définition, calcul, variation
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S01*
+*BTS SIO SISR 2e année – Pour aller plus loin – S01*
 
 > [!NOTE]
 > **Comment travailler.** Cherche d'abord **sur papier**, avec la méthode du cours : écris les étapes, pas seulement le résultat. Ouvre ensuite « Voir la réponse » pour te corriger. **Aucune réponse sans justification** n'est complète.

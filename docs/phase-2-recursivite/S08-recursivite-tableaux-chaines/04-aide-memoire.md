@@ -1,6 +1,6 @@
 # Aide-mémoire – Récursivité sur les tableaux et les chaînes
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S08*
+*BTS SIO SISR 2e année – Pour aller plus loin – S08*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

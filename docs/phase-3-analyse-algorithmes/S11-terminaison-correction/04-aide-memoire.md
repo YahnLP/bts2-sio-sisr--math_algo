@@ -1,6 +1,6 @@
 # Aide-mémoire – Terminaison, invariant et tests
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S11*
+*BTS SIO SISR 2e année – Pour aller plus loin – S11*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

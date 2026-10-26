@@ -1,6 +1,6 @@
 # Cours – Piles, files et dictionnaires
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S16 – à lire avant les [exercices](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S16 – à lire avant les [exercices](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** listes et dictionnaires Python ; pile d'appels (S07) ; coût d'une recherche (S14).

@@ -1,6 +1,6 @@
 # Cours – Récursivité, suites et pile d'appels
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S07 – à lire avant les [exercices](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S07 – à lire avant les [exercices](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S06 (cas de base, cas récursif, variant) ; S01 (suites par récurrence).

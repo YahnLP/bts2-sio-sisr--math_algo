@@ -1,6 +1,6 @@
 # Cours – Récursivité sur les tableaux et les chaînes
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S08 – à lire avant les [exercices](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S08 – à lire avant les [exercices](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S06 et S07 ; listes et chaînes en Python (indices, tranches `L[1:]`).

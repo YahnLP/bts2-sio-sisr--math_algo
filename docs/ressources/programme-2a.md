@@ -1,11 +1,20 @@
 # Programme de la 2e année
 
 > [!NOTE]
-> **Contenu de la 2e année.** Le site de 1re année couvre le programme obligatoire de l'épreuve de mathématiques pour l'informatique et **exclut** la récursivité, l'analyse d'algorithme et les suites numériques. Cette 2e année **approfondit** ces notions.
+> **Ce site est un complément.** Les notions de ce site (suites numériques, récursivité, analyse d'algorithmes, structures de données) ne sont pas des modules de l'épreuve E3 de mathématiques pour l'informatique. Elles servent la **programmation**, la **poursuite d'études** (licence ou école d'ingénieurs en informatique) et la culture algorithmique d'un technicien supérieur. Le programme de l'épreuve (arithmétique, calcul matriciel, logique et ensembles, graphes et ordonnancement, algorithmique appliquée) est traité dans le [site de 1re année](https://yahnlp.github.io/bts1-sio-sisr-math_algo/ressources/programme-e3/).
 
 ## Principe
 
-Quatre phases, 19 séances de 4 h, dans le même format qu'en 1re année : fiche, cours, exercices, TP Python avec tests automatiques, aide-mémoire.
+Quatre phases, 19 séances de 4 h, dans le même format qu'en 1re année : fiche, cours, exercices, TP Python avec tests automatiques, aide-mémoire. Les séances se suivent : chaque fiche indique ses prérequis.
+
+## Pourquoi ces notions
+
+| Notion | À quoi elle sert |
+|---|---|
+| Suites numériques | Modéliser une évolution discrète : intérêts, amortissement, croissance d'un stockage ; fondement de l'analyse numérique. |
+| Récursivité | Écrire des algorithmes sur les arbres, les listes imbriquées, les répertoires ; base de nombreux tris et parcours. |
+| Analyse d'algorithmes | Comparer deux solutions avant de les programmer ; comprendre pourquoi un traitement passe ou non à l'échelle. |
+| Structures de données et graphes | Piles, files, dictionnaires, parcours : briques de tout logiciel et de la théorie des réseaux. |
 
 ## Répartition
 
@@ -40,7 +49,7 @@ Quatre phases, 19 séances de 4 h, dans le même format qu'en 1re année : fiche
 | [S18](../phase-4-algorithmique-avancee-epreuve/S18-projet-algorithmique-methode/README.md) | Méthode : de l'énoncé au programme testé | Algorithmique avancée – démarche |
 | [S19](../phase-4-algorithmique-avancee-epreuve/S19-revisions-epreuve-blanche/README.md) | Révisions et épreuve blanche | Tous les chapitres de la 2e année |
 
-## Ce qui reste à valider
+## Limites
 
-- Que ces notions relèvent bien du programme que vous préparez en 2e année (unité de mathématiques approfondies ou autre cadre).
-- Les modalités d'une éventuelle épreuve (durée, forme, calculatrice) : la S19 propose un sujet de l'auteur, **non officiel**.
+- La séance S19 propose un sujet de l'auteur, **non officiel**, pour s'entraîner : il ne reproduit pas une épreuve précise.
+- Aucune de ces séances ne remplace la préparation à l'épreuve E3 : celle-ci repose sur le site de 1re année.

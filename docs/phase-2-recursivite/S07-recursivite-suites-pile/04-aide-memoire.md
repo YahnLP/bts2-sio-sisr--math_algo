@@ -1,6 +1,6 @@
 # Aide-mémoire – Récursivité, suites et pile d'appels
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S07*
+*BTS SIO SISR 2e année – Pour aller plus loin – S07*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

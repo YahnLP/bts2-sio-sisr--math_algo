@@ -1,6 +1,6 @@
 # Aide-mémoire – Mesurer et limites
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S15*
+*BTS SIO SISR 2e année – Pour aller plus loin – S15*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

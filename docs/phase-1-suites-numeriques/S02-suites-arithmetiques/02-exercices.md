@@ -1,6 +1,6 @@
 # Exercices – Suites arithmétiques
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S02*
+*BTS SIO SISR 2e année – Pour aller plus loin – S02*
 
 > [!NOTE]
 > **Comment travailler.** Cherche d'abord **sur papier**, avec la méthode du cours. Ouvre ensuite « Voir la réponse » pour te corriger. **Aucune réponse sans justification** n'est complète.

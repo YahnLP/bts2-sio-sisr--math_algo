@@ -1,6 +1,6 @@
 # Aide-mémoire – Suites : définition et programmation
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S01*
+*BTS SIO SISR 2e année – Pour aller plus loin – S01*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

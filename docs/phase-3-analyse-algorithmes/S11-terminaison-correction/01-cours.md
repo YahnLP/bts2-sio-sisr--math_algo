@@ -1,6 +1,6 @@
 # Cours – Terminaison et correction d'un algorithme
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S11 – à lire avant les [exercices](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S11 – à lire avant les [exercices](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** boucles `POUR` / `TANT QUE` (S04 de la 1re année) ; variant d'une fonction récursive (S06).

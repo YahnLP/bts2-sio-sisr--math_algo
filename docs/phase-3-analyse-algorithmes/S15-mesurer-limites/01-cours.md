@@ -1,6 +1,6 @@
 # Cours – Mesurer, et connaître les limites
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S15 – à lire avant les [exercices](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S15 – à lire avant les [exercices](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** classes de complexité (S13) ; factorielle et puissances.

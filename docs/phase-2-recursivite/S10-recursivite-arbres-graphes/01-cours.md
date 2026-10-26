@@ -1,6 +1,6 @@
 # Cours – Structures arborescentes et parcours en profondeur
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S10 – à lire avant les [exercices](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S10 – à lire avant les [exercices](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S08 et S09 (récursivité sur des structures) ; dictionnaires Python (clé, valeur) ; graphes (sommets, arêtes, S16 de la 1re année).

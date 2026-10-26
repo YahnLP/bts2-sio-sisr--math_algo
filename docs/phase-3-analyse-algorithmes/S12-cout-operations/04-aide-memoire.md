@@ -1,6 +1,6 @@
 # Aide-mémoire – Coût en opérations
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S12*
+*BTS SIO SISR 2e année – Pour aller plus loin – S12*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

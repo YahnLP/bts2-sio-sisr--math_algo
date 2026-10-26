@@ -1,6 +1,6 @@
 # Cours – Suites géométriques
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S03 – à lire avant les [exercices](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S03 – à lire avant les [exercices](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S02 (suites arithmétiques) ; les pourcentages d'évolution (coefficient multiplicateur).

@@ -1,6 +1,6 @@
 # Cours – Comportement à long terme et algorithmes de seuil
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S05 – à lire avant les [exercices](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S05 – à lire avant les [exercices](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S03 et S04 (suites géométriques, récurrence « pourcentage plus ajout »).

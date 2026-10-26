@@ -1,6 +1,6 @@
 # Cours – Graphes en Python : parcours et plus court chemin
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S17 – à lire avant les [exercices](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S17 – à lire avant les [exercices](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** file (`deque`) et dictionnaire (S16) ; parcours en profondeur (S10) ; graphes de la 1re année.

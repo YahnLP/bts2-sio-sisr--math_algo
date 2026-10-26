@@ -1,6 +1,6 @@
 # Cours – Sommes et applications : intérêts, emprunt, croissance de données
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S04 – à lire avant les [exercices](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S04 – à lire avant les [exercices](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S02 et S03 (suites arithmétiques et géométriques, sommes).

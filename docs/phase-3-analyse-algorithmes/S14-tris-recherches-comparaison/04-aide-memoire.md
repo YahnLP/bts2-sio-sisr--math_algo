@@ -1,6 +1,6 @@
 # Aide-mémoire – Tris et recherches
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S14*
+*BTS SIO SISR 2e année – Pour aller plus loin – S14*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 
