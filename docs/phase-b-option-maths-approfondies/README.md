@@ -15,7 +15,7 @@
 | M4 | Probabilités : variable aléatoire, lois binomiale, de Poisson, normale | [Synthèse](M4-probabilites/01-synthese.md) | [Exercices](M4-probabilites/02-exercices.md) |
 | M5 | Fiabilité : loi exponentielle, systèmes série et parallèle, disponibilité | [Synthèse](M5-fiabilite/01-synthese.md) | [Exercices](M5-fiabilite/02-exercices.md) |
 
-Un [sujet de 2 heures](sujets/sujet-1.md) clôt la phase.
+Un [aide-mémoire calculatrice](aide-memoire-calculatrice.md) (NumWorks, Casio, TI et Python) accompagne les modules, et un [sujet de 2 heures](sujets/sujet-1.md) clôt la phase.
 
 ## Ce qui est volontairement laissé de côté
 
