@@ -54,7 +54,7 @@ Six sites sont reliés par des liaisons à sens unique. Le graphe ci-dessous ind
 a) Dresser le tableau des successeurs de chaque site.
 b) Déterminer les niveaux du graphe (il n'a pas de circuit).
 
-**2. (4 points)** Par la méthode de Dijkstra, déterminer la latence minimale de S1 à chacun des autres sites. Présenter le déroulement dans un tableau. Donner un chemin de latence minimale de S1 à S6 et sa valeur.
+**2. (4 points)** *Rappel de méthode : on fixe le sommet de départ à la distance 0 ; à chaque étape, on retient le sommet non encore fixé de distance provisoire minimale, on le fixe, puis on met à jour la distance de ses successeurs si le passage par lui est plus court. On s'arrête quand tous les sommets sont fixés.* Par la méthode de Dijkstra, déterminer la latence minimale de S1 à chacun des autres sites. Présenter le déroulement dans un tableau. Donner un chemin de latence minimale de S1 à S6 et sa valeur.
 
 **3. (1 point)** Combien y a-t-il de chemins **de longueur 2** (deux arcs) de S1 à S4 ? Les citer.
 

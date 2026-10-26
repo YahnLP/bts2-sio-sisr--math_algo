@@ -2,4 +2,6 @@ title: "M4 – Calcul des probabilités"
 nav:
   - 01-variable-aleatoire-et-loi-binomiale.md
   - 02-poisson-et-normale.md
+  - 04-conditionnement-et-independance.md
+  - 05-uniforme-et-approximation-normale.md
   - 03-exercices.md

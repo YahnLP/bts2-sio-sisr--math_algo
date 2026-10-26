@@ -75,7 +75,7 @@ Une application dépend d'un serveur A en **série** avec un bloc de deux serveu
 
 </details>
 
-### Exercice 5 – Disponibilité
+### Exercice 5 – Disponibilité (hors programme de l'épreuve)
 
 Un équipement a une MTBF de \(2\,000\) h et un MTTR de \(8\) h.
 

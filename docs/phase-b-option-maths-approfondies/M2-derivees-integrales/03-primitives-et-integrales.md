@@ -5,7 +5,7 @@
 > [!NOTE]
 > **Objectifs de ce cours.** À la fin, tu sais : expliquer l'intégrale comme **cumul** (aire sous une courbe) ; **vérifier** qu'une fonction est une primitive en la dérivant ; calculer une intégrale avec une primitive ; calculer et interpréter une **valeur moyenne**.
 >
-> **Programme.** On ne calcule **pas** une primitive par une lecture « à l'envers » du tableau des dérivées : on **justifie** une primitive proposée en la **dérivant**, ou on la demande à la calculatrice formelle. Les fonctions périodiques ne sont pas au programme.
+> **Méthode.** Dans ce cours, on **justifie** une primitive proposée en la **dérivant**. Le [cours 5](06-primitives-aires-methodes-numeriques.md) apprend ensuite à la **trouver** pour les formes \(u'u^{n}\), \(\dfrac{u'}{u}\) et \(u'e^{u}\). Sont exclus du programme : l'intégration par parties et les primitives de \(\cos(\omega t + \varphi)\) et \(\sin(\omega t + \varphi)\).
 
 ## 1. Pour démarrer : cumuler une grandeur
 
@@ -55,7 +55,7 @@ Mais si le débit **varie** (par exemple \(d(t) = e^{-t/2}\) Go par heure, qui d
 
 Une fonction qui a une primitive en a **une infinité** : si \(F\) est une primitive, \(F + k\) (avec \(k\) constante) en est une aussi, car la dérivée d'une constante est nulle.
 
-**Comment on procède ici.** On ne cherche pas la primitive par une recette de lecture inverse : l'énoncé (ou la calculatrice formelle) la **propose**, et on la **justifie en dérivant**.
+**Comment on procède ici.** Pour les cas simples ou compliqués, l'énoncé (ou la calculatrice formelle) **propose** une primitive, et on la **justifie en dérivant**. Les formes courantes se retrouvent par une méthode (cours 5).
 
 **Exemple résolu.** Montrer que \(F(x) = x\,e^{x} - e^{x}\) est une primitive de \(f(x) = x\,e^{x}\).
 

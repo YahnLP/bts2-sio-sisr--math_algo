@@ -218,4 +218,4 @@ Le temps dépassé dans seulement 5 % des cas est \(113{,}16\) ms, **inférieur 
 
 </details>
 
-**Pour continuer :** les [exercices du module](03-exercices.md), puis le [module M5 sur la fiabilité](../M5-fiabilite/01-fiabilite-et-loi-exponentielle.md).
+**Pour continuer :** le [cours 3 sur les probabilités conditionnelles](04-conditionnement-et-independance.md).

@@ -82,6 +82,28 @@ Le plus petit entier convenable est \(n = 9\). Contrôle : \(1{,}05^{8} \approx 
 
 </details>
 
+### Exercice 7 – Racine et dichotomie
+
+1. Résoudre \(\sqrt{x + 3} = x - 3\) (penser à vérifier).
+2. Un coût de traitement est modélisé par \(h(x) = \ln x + x - 4\) pour \(x > 0\) (\(h\) est croissante). Montrer que \(h(x) = 0\) a une solution unique dans \([2\,;\,3]\), puis l'encadrer par dichotomie avec une amplitude inférieure à 0,1.
+
+<details markdown="1">
+<summary>Voir la réponse</summary>
+
+1. On élève au carré : \(x + 3 = x^{2} - 6x + 9\), soit \(x^{2} - 7x + 6 = 0\), de racines 1 et 6. Contrôle : pour \(x = 1\), \(\sqrt{4} = 2\) mais \(x - 3 = -2\) : **fausse solution**. Pour \(x = 6\), \(\sqrt{9} = 3 = 6 - 3\) : convient. Une seule solution : \(x = 6\).
+2. \(h\) est croissante, \(h(2) = \ln 2 - 2 \approx -1{,}31 < 0\) et \(h(3) = \ln 3 - 1 \approx 0{,}10 > 0\) : une solution unique dans \([2\,;\,3]\).
+
+| Étape | Intervalle | Milieu | Signe de \(h(m)\) |
+|---|---|---|---|
+| 1 | \([2\,;\,3]\) | 2,5 | \(-\) |
+| 2 | \([2{,}5\,;\,3]\) | 2,75 | \(-\) |
+| 3 | \([2{,}75\,;\,3]\) | 2,875 | \(-\) |
+| 4 | \([2{,}875\,;\,3]\) | 2,9375 | \(+\) |
+
+Après 4 étapes : \(2{,}875 < x < 2{,}9375\), amplitude \(0{,}0625 < 0{,}1\). (Valeur plus précise : \(x \approx 2{,}926\).)
+
+</details>
+
 ## Niveau 3 – Pour aller plus loin
 
 ### Exercice 6 – Fonction réciproque

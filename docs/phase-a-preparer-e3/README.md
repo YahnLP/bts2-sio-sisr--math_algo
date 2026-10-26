@@ -28,7 +28,10 @@ Tous les exercices ont un corrigé dans un bloc déroulant. **Cherche d'abord su
 
 ## Les sujets de 2 heures
 
-Chaque sujet suit la forme de l'épreuve écrite : **2 heures**, **20 points**, trois exercices indépendants dont un exercice de **programmation**. Le corrigé détaille le barème question par question.
+Chaque sujet suit la forme de l'épreuve **ponctuelle** écrite : **2 heures**, **20 points**, trois exercices indépendants dont un exercice de **programmation**. Le corrigé détaille le barème question par question.
+
+> [!NOTE]
+> **En contrôle en cours de formation (CCF)**, l'épreuve comprend deux situations d'évaluation : une situation A d'algorithmique appliquée (oral de 20 minutes après une heure de préparation, dont 30 minutes sur machine : on présente sa solution et son programme) et une situation B, écrite, de 55 minutes, avec un ou deux exercices. Un ou deux exercices d'un sujet de 2 heures donnent un bon entraînement à la situation B ; l'exercice de programmation prépare la situation A.
 
 | Sujet | Contexte | Contenu | Points |
 |---|---|---|---|
@@ -53,7 +56,7 @@ Chaque sujet suit la forme de l'épreuve écrite : **2 heures**, **20 points**, 
 | 12 | Sujet 2 |
 | 13 | Sujet 3 |
 | 14 | Sujet 4 |
-| 15 à 18 | Reprise ciblée selon les points perdus ; exercices de niveau 3 ; projets « pour aller plus loin » (suites, récursivité, analyse d'algorithmes : voir les phases suivantes) |
+| 15 à 18 | Reprise ciblée selon les points perdus ; exercices de niveau 3 ; projets « pour aller plus loin », hors programme de l'épreuve (suites, récursivité, analyse d'algorithmes : voir les phases suivantes) |
 | 19 | Bilan et épreuve en temps limité de son choix |
 
 ## Comment se corriger
