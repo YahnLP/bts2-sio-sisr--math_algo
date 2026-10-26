@@ -66,6 +66,14 @@
 [**Ouvrir la phase**](phase-4-algorithmique-avancee-epreuve/README.md){ .go }
 </div>
 
+<div class="card" markdown>
+
+### Option – Mathématiques approfondies
+**Pour aller plus loin (facultatif)** – Fonctions, dérivées et intégrales, statistique, probabilités, fiabilité, avec exercices et un sujet de 2 h.
+
+[**Ouvrir la phase**](phase-b-option-maths-approfondies/README.md){ .go }
+</div>
+
 <div class="card green" markdown>
 
 ### Ressources
