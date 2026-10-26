@@ -1,7 +1,9 @@
 # Programme de la 2e année
 
 > [!NOTE]
-> **Ce site est un complément.** Les notions de ce site (suites numériques, récursivité, analyse d'algorithmes, structures de données) ne sont pas des modules de l'épreuve E3 de mathématiques pour l'informatique. Elles servent la **programmation**, la **poursuite d'études** (licence ou école d'ingénieurs en informatique) et la culture algorithmique d'un technicien supérieur. Le programme de l'épreuve (arithmétique, calcul matriciel, logique et ensembles, graphes et ordonnancement, algorithmique appliquée) est traité dans le [site de 1re année](https://yahnlp.github.io/bts1-sio-sisr-math_algo/ressources/programme-e3/).
+> **Ce site est un complément.** Les notions de ce site (suites numériques, récursivité, analyse d'algorithmes, structures de données) ne sont pas des modules de l'épreuve E3 de mathématiques pour l'informatique. Elles servent la **programmation**, la **poursuite d'études** (licence ou école d'ingénieurs en informatique) et la culture algorithmique d'un technicien supérieur. Le programme de l'épreuve (arithmétique, calcul matriciel, logique et ensembles, graphes et ordonnancement, algorithmique appliquée) est traité dans le [site de 1re année](https://yahnlp.github.io/bts1-sio-sisr-math_algo/ressources/programme-e3/) et révisé dans la [phase A](../phase-a-preparer-e3/README.md).
+>
+> **Exception : les suites numériques.** Elles ne sont pas au programme de l'épreuve E3, mais elles sont l'un des six modules de l'unité facultative UF2 « mathématiques approfondies ». La phase 1 sert donc aussi de préparation à cette option : voir la [phase B](../phase-b-option-maths-approfondies/README.md).
 
 ## Principe
 

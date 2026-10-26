@@ -104,6 +104,8 @@ La droite de régression est donc \(y \approx 9{,}46\,x + 1{,}73\).
 
 **Interprétation de \(a\) et \(b\).** Chaque **centaine** d'utilisateurs supplémentaires ajoute en moyenne environ **9,5 points** de charge ; \(b \approx 1{,}73\) est la charge « de fond » du modèle sans utilisateur.
 
+**Deux droites de régression.** On peut aussi ajuster \(x\) en fonction de \(y\) : c'est la **droite de régression de \(x\) en \(y\)**, \(x = a'y + b'\), avec \(a' = \dfrac{\operatorname{cov}(x,y)}{V(y)}\). Ici \(a' \approx 0{,}1046\) et \(b' \approx -0{,}142\). Les deux droites passent par le point moyen ; elles sont **confondues** seulement si la liaison est parfaite (\(r = \pm 1\)). On a la relation \(r^{2} = a \times a'\) : ici \(9{,}457 \times 0{,}1046 \approx 0{,}989\). Pour **prévoir \(y\) à partir de \(x\)**, on utilise la droite de \(y\) en \(x\) ; pour **prévoir \(x\) à partir de \(y\)** (par exemple le nombre d'utilisateurs qui donne 70 % de charge), la droite de \(x\) en \(y\) est la bonne : \(x \approx 0{,}1046 \times 70 - 0{,}142 \approx 7{,}18\), soit 718 utilisateurs (la résolution de la section 5 donnait 722 : les deux sont proches parce que \(r\) est proche de 1).
+
 ## 4. Le coefficient de corrélation : la droite est-elle un bon modèle ?
 
 Le **coefficient de corrélation linéaire** \(r\) est un nombre compris entre \(-1\) et \(1\).
@@ -146,6 +148,15 @@ On revient à \(y\) : \(y = e^{4{,}598}\left(e^{0{,}410}\right)^{t} \approx 99{,
 
 > [!TIP]
 > **Comment choisir ?** Trace le nuage. S'il est aligné, ajuste \(y\) en \(x\). Si les valeurs **multiplient** d'une période à l'autre (rapports presque constants), ajuste \(\ln y\) en \(x\).
+
+**Comparer deux ajustements.** Pour les comptes créés, comparons les deux modèles à l'aide du coefficient de corrélation :
+
+| Ajustement | Équation | \(r\) | Prévision semaine 6 |
+|---|---|---|---|
+| Affine : \(y\) en \(t\) | \(y \approx 130{,}2\,t + 23{,}7\) | \(0{,}960\) | \(\approx 805\) |
+| Exponentiel : \(\ln y\) en \(t\) | \(y \approx 99{,}3 \times 1{,}507^{\,t}\) | \(0{,}99997\) | \(\approx 1\,160\) |
+
+Le modèle exponentiel a le meilleur \(r\) (on compare \(r\) de \(\ln y\) en \(t\) avec \(r\) de \(y\) en \(t\)) : il convient mieux, ce qu'on avait déjà vu sur les rapports presque constants. Attention : un \(r\) de 0,96 est déjà « bon » ; seul le **nuage** et la **forme du phénomène** permettent de trancher. La différence sur la prévision (805 contre 1 160) montre l'enjeu du choix.
 
 ## 7. Calculer avec Python
 

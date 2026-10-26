@@ -90,17 +90,36 @@ Sur 200 transmissions, chacune échoue avec la probabilité \(0{,}01\). \(X\) es
 
 </details>
 
-### Exercice 6 – Deux états : un service en marche ou en panne
+### Exercice 6 – Une sonde de détection d'intrusion
 
-Un service est soit **en marche** (M), soit **en panne** (P). Chaque jour : s'il est en marche, il le reste avec la probabilité \(0{,}9\) ; s'il est en panne, il est réparé et en marche le lendemain avec la probabilité \(0{,}4\). La matrice de transition est \(T = \begin{pmatrix} 0{,}9 & 0{,}1 \\ 0{,}4 & 0{,}6 \end{pmatrix}\) (lignes : état du jour ; colonnes : état du lendemain, dans l'ordre M, P).
+Sur un parc, 2 % des postes sont compromis. Une sonde signale 90 % des postes compromis, mais signale aussi à tort 5 % des postes sains.
 
-1. Calculer \(T^2\) et interpréter son coefficient \((P, M)\).
-2. Trouver la répartition \((a\,;\,b)\), avec \(a + b = 1\), telle que \((a\,;\,b)\,T = (a\,;\,b)\). Interpréter.
+1. Construire l'arbre pondéré (sous forme de tableau des chemins) et calculer la probabilité qu'un poste soit signalé.
+2. Un poste est signalé. Quelle est la probabilité qu'il soit réellement compromis ? Commenter.
+3. Les événements « compromis » et « signalé » sont-ils indépendants ?
 
 <details markdown="1">
 <summary>Voir la réponse</summary>
 
-1. \(T^2 = \begin{pmatrix} 0{,}85 & 0{,}15 \\ 0{,}60 & 0{,}40 \end{pmatrix}\). Le coefficient \((P, M) = 0{,}60\) est la probabilité que le service, en panne aujourd'hui, soit en marche **dans deux jours**.
-2. L'équation donne \(0{,}9a + 0{,}4b = a\), soit \(0{,}4b = 0{,}1a\), donc \(a = 4b\). Avec \(a + b = 1\) : \(a = 0{,}8\) et \(b = 0{,}2\). À long terme, le service est en marche **80 %** du temps et en panne 20 % du temps, quel que soit l'état de départ.
+1. On note \(C\) « compromis » et \(S\) « signalé ». \(P(C \cap S) = 0{,}02 \times 0{,}9 = 0{,}018\) ; \(P(\overline{C} \cap S) = 0{,}98 \times 0{,}05 = 0{,}049\). Probabilités totales : \(P(S) = 0{,}018 + 0{,}049 = 0{,}067\).
+2. \(P_S(C) = \dfrac{0{,}018}{0{,}067} \approx 0{,}269\). Seulement 27 % des alertes concernent un vrai poste compromis : comme les postes compromis sont **rares**, les fausses alertes dominent. Une alerte doit donc être vérifiée avant d'isoler le poste.
+3. \(P(C) \times P(S) = 0{,}02 \times 0{,}067 = 0{,}00134 \ne 0{,}018\) : non indépendants (heureusement, sinon la sonde ne servirait à rien).
+
+</details>
+
+### Exercice 7 – Approximation normale
+
+Sur 1 000 connexions, chacune échoue avec la probabilité 0,03, indépendamment. \(X\) est le nombre d'échecs.
+
+1. Donner la loi de \(X\), son espérance et son écart type.
+2. Justifier qu'on peut approcher \(X\) par une loi normale, et estimer \(P(X \ge 40)\) avec la correction de continuité.
+3. Comparer à la valeur exacte donnée par la calculatrice, \(0{,}0437\).
+
+<details markdown="1">
+<summary>Voir la réponse</summary>
+
+1. \(X \sim \mathcal{B}(1000\,;\,0{,}03)\) ; \(E(X) = 30\) ; \(\sigma = \sqrt{1000 \times 0{,}03 \times 0{,}97} = \sqrt{29{,}1} \approx 5{,}394\).
+2. \(n = 1000 \ge 30\), \(np = 30 \ge 5\), \(n(1-p) = 970 \ge 5\). Avec \(Y \sim \mathcal{N}(30\,;\,5{,}394)\) : \(P(X \ge 40) \approx P(Y \ge 39{,}5) \approx 0{,}039\).
+3. L'écart est d'environ 0,005 : l'approximation donne le bon ordre de grandeur (environ 4 %), mais elle est moins précise ici car \(p\) est petit et la loi binomiale n'est pas symétrique.
 
 </details>

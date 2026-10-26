@@ -5,7 +5,9 @@
 > [!NOTE]
 > **Objectifs de ce cours.** À la fin, tu sais : calculer la fiabilité d'un système de composants **en série**, **en parallèle** et **mixte** ; comprendre l'intérêt de la **redondance** ; calculer une **disponibilité** à partir de la MTBF et de la durée de réparation ; relier un taux de disponibilité à un **temps d'arrêt annuel** (SLA).
 >
-> **Prérequis.** Le [cours 1](01-fiabilite-et-loi-exponentielle.md). Les composants sont supposés **indépendants**.
+> **Prérequis.** Le [cours 1](01-fiabilite-et-loi-exponentielle.md) et les [événements indépendants](../M4-probabilites/04-conditionnement-et-independance.md). Les composants sont supposés **indépendants**.
+>
+> **Programme.** Les montages en série et en parallèle sont des applications directes de l'indépendance (\(P(A \cap B) = P(A)\,P(B)\)) : ils relèvent du programme de probabilités. La **disponibilité** (section 6) est hors programme de l'unité UF2 : c'est une notion de culture professionnelle (contrats de service), utile en exploitation, qui ne sera pas exigée à l'épreuve facultative.
 
 ## 1. Pour démarrer : un service, plusieurs composants
 
@@ -104,7 +106,7 @@ Il faut **5 serveurs**. Contrôle : \(n = 4\) donne \(1 - 0{,}3935^{4} \approx 0
 
 Cinq serveurs coûtent cher : au-delà d'un certain point, chaque serveur apporte de moins en moins, et l'**indépendance des pannes** devient décisive.
 
-## 6. La disponibilité
+## 6. La disponibilité (hors programme de l'épreuve)
 
 La fiabilité parle d'un composant **non réparé**. Un équipement réparable alterne **marche** et **panne** : on s'intéresse à la proportion du temps pendant laquelle il fonctionne, la **disponibilité**.
 

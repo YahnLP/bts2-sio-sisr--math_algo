@@ -29,7 +29,7 @@ On note \(M\) la matrice d'adjacence du graphe des antériorités (un arc de \(X
 a) Déterminer les niveaux du graphe des antériorités.
 b) Que représente le coefficient \((A, F)\) de \(M^3\) ? Citer les chemins correspondants.
 
-**2. (3 points)** Par la méthode MPM :
+**2. (3 points)** *Rappel de méthode : date au plus tôt d'une tâche = maximum, sur ses antécédentes, de (date au plus tôt + durée) ; date au plus tard = minimum, sur ses successeurs, de (date au plus tard) moins la durée de la tâche ; marge totale = plus tard moins plus tôt ; une tâche est critique si sa marge est nulle.* Par la méthode MPM :
 
 a) Calculer les dates au plus tôt et la durée minimale du projet.
 b) Calculer les dates au plus tard et les marges totales.

@@ -95,6 +95,33 @@ Un service reçoit des requêtes selon le modèle \(f(x) = (x + 2)e^{-x}\), où 
 
 </details>
 
+### Exercice 8 – Étude avec asymptote oblique
+
+Soit \(f(x) = x + e^{-x}\) pour \(x \ge 0\).
+
+1. Calculer \(f'(x)\) et dresser le tableau de variations.
+2. Montrer que la droite \(y = x\) est asymptote oblique en \(+\infty\). Quelle est la position de la courbe par rapport à elle ?
+
+<details markdown="1">
+<summary>Voir la réponse</summary>
+
+1. \(f'(x) = 1 - e^{-x}\) (dérivée de \(e^{-x}\) : \(-e^{-x}\)). Pour \(x > 0\), \(e^{-x} < 1\) donc \(f'(x) > 0\) ; \(f'(0) = 0\). La fonction est **croissante** sur \([0\,;\,+\infty[\), de \(f(0) = 1\) jusqu'à \(+\infty\). Valeurs : \(f(1) \approx 1{,}368\), \(f(2) \approx 2{,}135\).
+2. \(f(x) - x = e^{-x} \to 0\) quand \(x \to +\infty\) : la droite \(y = x\) est asymptote oblique. Comme \(e^{-x} > 0\), la courbe est **au-dessus** de l'asymptote.
+
+</details>
+
+### Exercice 9 – Primitives de la forme \(u'e^{u}\), \(\dfrac{u'}{u}\)
+
+Calculer \(\displaystyle\int_{0}^{1} x\,e^{-x^{2}}\,dx\) et \(\displaystyle\int_{0}^{2} \dfrac{x}{x^{2}+1}\,dx\). Contrôler à la calculatrice.
+
+<details markdown="1">
+<summary>Voir la réponse</summary>
+
+1. \(u = -x^{2}\), \(u' = -2x\) : \(x\,e^{-x^{2}} = -\dfrac{1}{2}\,u'\,e^{u}\). Primitive : \(-\dfrac{1}{2}e^{-x^{2}}\). Intégrale : \(-\dfrac{1}{2}\big(e^{-1} - 1\big) = \dfrac{1 - e^{-1}}{2} \approx 0{,}316\).
+2. \(u = x^{2} + 1\), \(u' = 2x\) : \(\dfrac{x}{x^{2}+1} = \dfrac{1}{2}\,\dfrac{u'}{u}\). Primitive : \(\dfrac{1}{2}\ln(x^{2}+1)\). Intégrale : \(\dfrac{1}{2}\ln 5 \approx 0{,}805\).
+
+</details>
+
 ## Niveau 3 – Pour aller plus loin
 
 ### Exercice 6 – Aire, valeur moyenne

@@ -329,7 +329,9 @@ def syracuse(n):
 
 </details>
 
-## Niveau 3 – Pour aller plus loin
+## Niveau 3 – Pour aller plus loin (hors programme de l'épreuve)
+
+Ces exercices dépassent ce que l'épreuve E3 demande (récursivité, coût d'un algorithme). Ils préparent les phases suivantes du site.
 
 ### Exercice 13 – Récursivité
 

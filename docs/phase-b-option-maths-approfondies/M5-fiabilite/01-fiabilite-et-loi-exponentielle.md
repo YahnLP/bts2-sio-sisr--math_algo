@@ -7,7 +7,7 @@
 >
 > **Prérequis.** L'exponentielle ([module M1](../M1-fonctions/02-exponentielle-et-logarithme.md)) et les probabilités ([module M4](../M4-probabilites/01-variable-aleatoire-et-loi-binomiale.md)).
 >
-> **Programme.** Seule une partie du module de fiabilité du référentiel est exigée dans l'option : ce cours traite la fiabilité d'un composant, les systèmes en série et en parallèle et la disponibilité.
+> **Programme.** La loi exponentielle fait partie des modules de probabilités de l'unité UF2. La fiabilité n'est pas un module de l'unité : c'est ici une **application** de la loi exponentielle, très utile pour un technicien SISR. Le vocabulaire (fiabilité, MTBF) doit être rappelé par l'énoncé s'il est utilisé.
 
 ## 1. Pour démarrer : pourquoi parler de fiabilité ?
 

@@ -56,7 +56,9 @@ Une fonction a des **paramètres** d'entrée et une **valeur retournée**. Une v
 - **Jeux de tests** : un cas **typique**, les **limites** (liste vide, un seul élément, valeur minimale ou maximale), un cas **erroné**.
 - **Effets indésirables** à connaître : effet de bord (modifier un argument), évaluation partielle d'une expression booléenne, **dépassement** de capacité, approximation des réels, mauvais **transtypage**, **indice hors domaine**.
 
-## VI. Compléments (au programme de l'algorithmique appliquée)
+## VI. Compléments (hors programme de l'épreuve)
+
+Le référentiel exclut la récursivité et l'analyse d'algorithmes de l'épreuve E3. Ces deux notions sont traitées dans les phases suivantes du site ; elles ne sont rappelées ici que parce qu'elles aident à écrire de bons algorithmes.
 
 - **Récursivité** : une fonction qui s'appelle elle-même. Il faut un **cas de base** (sans appel), un appel sur un problème **plus petit**, et la **finitude**. Pas de récursivité mutuelle.
 - **Coût** : on compte, en fonction de la taille \(n\), un nombre **minimal** et **maximal** d'opérations significatives (comparaisons).

@@ -229,4 +229,4 @@ Les valeurs \(8{,}31\) ou \(14{,}21\) ne sont pas des années entières : on les
 
 </details>
 
-**Pour continuer :** les [exercices du module](03-exercices.md), puis le [module M2 sur la dérivée](../M2-derivees-integrales/01-derivee-et-variations.md).
+**Pour continuer :** le [cours 3](04-racine-et-resolution-approchee.md), puis les [exercices du module](03-exercices.md) et le [module M2 sur la dérivée](../M2-derivees-integrales/01-derivee-et-variations.md).

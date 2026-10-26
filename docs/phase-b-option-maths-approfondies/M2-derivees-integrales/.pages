@@ -3,4 +3,6 @@ nav:
   - 01-derivee-et-variations.md
   - 02-limites-et-asymptotes.md
   - 03-primitives-et-integrales.md
+  - 05-derivees-composees-et-asymptotes.md
+  - 06-primitives-aires-methodes-numeriques.md
   - 04-exercices.md

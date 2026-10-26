@@ -90,9 +90,9 @@ On relève le nombre \(x\) de centaines d'utilisateurs connectés et la charge p
 
 **3.** Donner \(\lambda\) et calculer \(P(T > 1000)\). *(1 point)*
 
-**4.** Deux serveurs identiques sont montés **en parallèle**. Calculer la fiabilité du montage à 1 000 h. *(1 point)*
+**4.** Deux serveurs identiques sont montés **en parallèle**. Le montage fonctionne tant qu'au moins un des deux serveurs fonctionne ; les serveurs tombent en panne indépendamment. Calculer la probabilité que le montage fonctionne encore à 1 000 h. *(1 point)*
 
-**5.** La durée moyenne de réparation est de 6 h. Calculer la disponibilité d'un serveur et le temps d'arrêt annuel (8 760 h). *(2 points)*
+**5.** a) Calculer la durée \(t\) (en heures) pendant laquelle un serveur fonctionne avec une probabilité de 0,9, c'est-à-dire telle que \(P(T > t) = 0{,}9\). b) Un serveur fonctionne encore à 1 000 h. Calculer la probabilité qu'il fonctionne encore à 2 000 h, et commenter. *(2 points)*
 
 <details markdown="1">
 <summary>Voir le corrigé et le barème</summary>
@@ -105,7 +105,7 @@ On relève le nombre \(x\) de centaines d'utilisateurs connectés et la charge p
 
 **4.** *(1 pt)* \(R = 1 - (1 - 0{,}5134)^2 \approx 0{,}7632\).
 
-**5.** *(2 pts)* \(A = \dfrac{1500}{1500 + 6} = \dfrac{1500}{1506} \approx 0{,}9960\), soit \(99{,}60\) %. Arrêt annuel : \(8760 \times (1 - 0{,}99602) \approx 34{,}9\) h. *(1 pt pour la disponibilité, 1 pt pour l'arrêt annuel et son commentaire.)*
+**5.** *(2 pts)* a) \(e^{-t/1500} = 0{,}9\) donne \(t = -1500 \ln 0{,}9 \approx 158\) h : à peine une semaine de fonctionnement garanti à 90 %, bien moins que la MTBF. *(1 pt)* b) \(P_{T > 1000}(T > 2000) = \dfrac{P(T > 2000)}{P(T > 1000)} = \dfrac{e^{-2000/1500}}{e^{-1000/1500}} = e^{-1000/1500} \approx 0{,}5134\). C'est la même probabilité qu'un serveur neuf de tenir 1 000 h : la loi exponentielle est **sans mémoire** (pas d'usure). *(1 pt, dont 0,5 pour le commentaire.)*
 
 </details>
 
