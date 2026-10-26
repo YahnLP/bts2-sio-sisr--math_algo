@@ -26,6 +26,14 @@
 
 <div class="cards" markdown>
 
+<div class="card violet" markdown>
+
+### Préparer l'épreuve E3
+**5 séries de révision et 4 sujets de 2 h** – Arithmétique, matrices, logique, graphes, programmation, avec exercices « pour aller plus loin ».
+
+[**Ouvrir la phase**](phase-a-preparer-e3/README.md){ .go }
+</div>
+
 <div class="card" markdown>
 
 ### Phase 1 – Suites numériques
