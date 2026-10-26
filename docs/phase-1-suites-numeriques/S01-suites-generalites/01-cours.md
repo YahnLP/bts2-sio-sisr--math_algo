@@ -1,6 +1,6 @@
 # Cours – Suites numériques : définition et programmation
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S01 – à lire avant les [exercices](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S01 – à lire avant les [exercices](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** les boucles `POUR` et `TANT QUE` (S04 de la 1re année) ; l'écriture d'une fonction en Python.

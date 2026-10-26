@@ -1,4 +1,4 @@
-# Phase 4 – Algorithmique avancée et épreuve
+# Phase 4 – Algorithmique avancée et bilan
 
 **Séances S16 à S19.** Piles, files, dictionnaires, graphes en Python, méthode de projet algorithmique, révisions et épreuve blanche.
 

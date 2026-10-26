@@ -2,7 +2,7 @@
 
 <p class="hero-kicker">BTS SIO option SISR – 2e année</p>
 
-# Mathématiques et algorithmique approfondies
+# Mathématiques et algorithmique : pour aller plus loin
 
 <p class="hero-sem"><span>Suites, récursivité, analyse d'algorithmes, structures de données</span><span>19 séances de 4 h</span></p>
 
@@ -20,7 +20,7 @@
 > **Une méthode en quatre temps.** On **pose** le problème, on **calcule**, on **vérifie** (par un autre chemin ou par un programme), puis on **conclut** par une phrase.
 
 > [!WARNING]
-> Cette 2e année approfondit le programme obligatoire (voir [Programme de la 2e année](ressources/programme-2a.md)).
+> Ce site est un **complément** au programme de l'épreuve E3 : suites, récursivité, analyse d'algorithmes et structures de données (voir [Programme de la 2e année](ressources/programme-2a.md)).
 
 ## Choisir une phase
 
@@ -52,7 +52,7 @@
 
 <div class="card" markdown>
 
-### Phase 4 – Algorithmique avancée et épreuve
+### Phase 4 – Algorithmique avancée et bilan
 **S16 à S19** – Piles, files, dictionnaires, graphes en Python, méthode, épreuve blanche.
 
 [**Ouvrir la phase**](phase-4-algorithmique-avancee-epreuve/README.md){ .go }

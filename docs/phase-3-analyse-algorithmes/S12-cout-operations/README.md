@@ -2,7 +2,7 @@
 
 | Élément | Détail |
 |---|---|
-| **Niveau** | BTS SIO option SISR, 2e année – mathématiques approfondies et algorithmique |
+| **Niveau** | BTS SIO option SISR, 2e année – complément : pour aller plus loin |
 | **Séance** | S12 (séance 12 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Coût d'un algorithme : prérequis de S13. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |

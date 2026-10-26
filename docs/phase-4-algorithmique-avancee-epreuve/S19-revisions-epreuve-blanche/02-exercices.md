@@ -1,4 +1,4 @@
-# Sujet blanc – Mathématiques approfondies et algorithmique
+# Sujet blanc – Pour aller plus loin
 
 *BTS SIO SISR 2e année – S19 – **sujet de l'auteur, non officiel***
 

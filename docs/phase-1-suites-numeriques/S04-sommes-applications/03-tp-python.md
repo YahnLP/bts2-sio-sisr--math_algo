@@ -4,7 +4,7 @@ render_macros: true
 
 # TP Python – Intérêts, épargne et emprunt en Python
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S04*
+*BTS SIO SISR 2e année – Pour aller plus loin – S04*
 
 > [!NOTE]
 > **Comment ce TP fonctionne.** Chaque exercice a un éditeur Python intégré à la page (il s'exécute dans ton navigateur, rien à installer). Avant de lancer, écris sur ta feuille ce que tu **anticipes** (« J'anticipe »). Puis lance et compare. Le bouton **Valider** exécute des tests : un test réussi ne dispense pas de **comprendre** pourquoi.

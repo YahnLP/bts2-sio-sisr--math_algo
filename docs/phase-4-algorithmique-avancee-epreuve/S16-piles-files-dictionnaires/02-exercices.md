@@ -1,6 +1,6 @@
 # Exercices – Piles, files et dictionnaires
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S16*
+*BTS SIO SISR 2e année – Pour aller plus loin – S16*
 
 > [!NOTE]
 > **Comment travailler.** Cherche d'abord **sur papier**, puis ouvre « Voir la réponse ». **Aucune réponse sans justification** n'est complète.

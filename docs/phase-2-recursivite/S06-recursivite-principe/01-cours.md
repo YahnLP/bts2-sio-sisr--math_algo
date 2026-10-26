@@ -1,6 +1,6 @@
 # Cours – Récursivité : principe
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S06 – à lire avant les [exercices](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S06 – à lire avant les [exercices](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** S05 (suites récurrentes, terminaison d'une boucle) ; écrire une fonction en Python.

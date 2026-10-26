@@ -1,6 +1,6 @@
 # Exercices – Arborescences et parcours en profondeur
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S10*
+*BTS SIO SISR 2e année – Pour aller plus loin – S10*
 
 > [!NOTE]
 > **Comment travailler.** Cherche d'abord **sur papier**. Ouvre ensuite « Voir la réponse » pour te corriger. **Aucune réponse sans justification** n'est complète.

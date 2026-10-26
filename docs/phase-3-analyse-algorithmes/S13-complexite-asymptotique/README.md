@@ -2,7 +2,7 @@
 
 | Élément | Détail |
 |---|---|
-| **Niveau** | BTS SIO option SISR, 2e année – mathématiques approfondies et algorithmique |
+| **Niveau** | BTS SIO option SISR, 2e année – complément : pour aller plus loin |
 | **Séance** | S13 (séance 13 sur 19) – Phase 3 |
 | **Durée** | 4 heures |
 | **Parcours** | **Cœur** – Complexité asymptotique : prérequis de S14. Voir le [parcours cœur et complément](../../ressources/parcours-coeur-complement.md). |

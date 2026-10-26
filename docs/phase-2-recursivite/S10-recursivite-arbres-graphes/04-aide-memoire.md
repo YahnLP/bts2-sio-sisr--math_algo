@@ -1,6 +1,6 @@
 # Aide-mémoire – Arborescences et parcours en profondeur
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S10*
+*BTS SIO SISR 2e année – Pour aller plus loin – S10*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

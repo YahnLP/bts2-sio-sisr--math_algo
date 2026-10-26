@@ -1,6 +1,6 @@
 # Aide-mémoire – Graphes : parcours et plus court chemin
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S17*
+*BTS SIO SISR 2e année – Pour aller plus loin – S17*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

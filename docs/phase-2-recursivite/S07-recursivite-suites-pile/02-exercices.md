@@ -1,6 +1,6 @@
 # Exercices – Récursivité, suites et pile d'appels
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S07*
+*BTS SIO SISR 2e année – Pour aller plus loin – S07*
 
 > [!NOTE]
 > **Comment travailler.** Cherche d'abord **sur papier**. Ouvre ensuite « Voir la réponse » pour te corriger. **Aucune réponse sans justification** n'est complète.

@@ -1,6 +1,6 @@
 # Cours – De l'énoncé au programme testé
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S18 – à lire avant les [exercices](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S18 – à lire avant les [exercices](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** tout le programme de la 2e année (S01 à S17), en particulier variants/invariants (S11), coût (S12 à S15), structures (S16).

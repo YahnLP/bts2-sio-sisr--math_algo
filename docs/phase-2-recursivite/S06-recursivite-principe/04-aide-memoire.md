@@ -1,6 +1,6 @@
 # Aide-mémoire – Récursivité : principe
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S06*
+*BTS SIO SISR 2e année – Pour aller plus loin – S06*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

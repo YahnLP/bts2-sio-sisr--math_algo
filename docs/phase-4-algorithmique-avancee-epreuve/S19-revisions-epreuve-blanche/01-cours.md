@@ -1,6 +1,6 @@
 # Cours – Plan de révision
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S19 – à lire avant le [sujet blanc](02-exercices.md)*
+*BTS SIO SISR 2e année – Pour aller plus loin – S19 – à lire avant le [sujet blanc](02-exercices.md)*
 
 > [!NOTE] Ce que tu dois savoir déjà
 > - **Prérequis :** les séances S01 à S18.

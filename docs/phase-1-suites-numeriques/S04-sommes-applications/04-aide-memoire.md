@@ -1,6 +1,6 @@
 # Aide-mémoire – Intérêts, emprunt et croissance de données
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S04*
+*BTS SIO SISR 2e année – Pour aller plus loin – S04*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

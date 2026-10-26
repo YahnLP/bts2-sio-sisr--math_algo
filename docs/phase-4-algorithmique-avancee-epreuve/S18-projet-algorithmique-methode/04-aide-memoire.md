@@ -1,6 +1,6 @@
 # Aide-mémoire – Méthode
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S18*
+*BTS SIO SISR 2e année – Pour aller plus loin – S18*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

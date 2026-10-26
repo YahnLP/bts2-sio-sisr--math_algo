@@ -1,6 +1,6 @@
 # Aide-mémoire – Limites, point fixe et seuils
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S05*
+*BTS SIO SISR 2e année – Pour aller plus loin – S05*
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 

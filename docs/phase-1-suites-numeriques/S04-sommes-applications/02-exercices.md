@@ -1,6 +1,6 @@
 # Exercices – Intérêts, emprunt et croissance de données
 
-*BTS SIO SISR 2e année – Mathématiques approfondies et algorithmique – S04*
+*BTS SIO SISR 2e année – Pour aller plus loin – S04*
 
 > [!NOTE]
 > **Comment travailler.** Cherche d'abord **sur papier**, calculatrice autorisée. Ouvre ensuite « Voir la réponse » pour te corriger. **Aucune réponse sans justification** n'est complète.
