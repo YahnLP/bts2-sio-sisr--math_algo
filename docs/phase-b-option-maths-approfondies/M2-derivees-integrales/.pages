@@ -1,4 +1,6 @@
 title: "M2 – Calcul différentiel et intégral"
 nav:
-  - 01-synthese.md
-  - 02-exercices.md
+  - 01-derivee-et-variations.md
+  - 02-limites-et-asymptotes.md
+  - 03-primitives-et-integrales.md
+  - 04-exercices.md

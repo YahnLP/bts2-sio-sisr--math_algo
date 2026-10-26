@@ -1,4 +1,5 @@
 title: "M5 – Fiabilité"
 nav:
-  - 01-synthese.md
-  - 02-exercices.md
+  - 01-fiabilite-et-loi-exponentielle.md
+  - 02-systemes-et-disponibilite.md
+  - 03-exercices.md
