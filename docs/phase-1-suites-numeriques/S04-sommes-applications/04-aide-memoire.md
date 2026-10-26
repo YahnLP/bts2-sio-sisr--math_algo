@@ -4,7 +4,7 @@
 
 > Un mot ou un sigle inconnu ? Passe la souris dessus, ou ouvre le [glossaire](../../ressources/glossaire.md).
 
-## Formules (taux \(t\) par période, en décimal)
+## Formules (taux t par période, en décimal)
 
 | Objet | Formule |
 |---|---|

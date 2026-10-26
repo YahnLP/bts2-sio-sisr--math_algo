@@ -73,7 +73,7 @@ Invariant : après \(k\) tours, `t` vaut \(u_k\).
 | Hausse de \(t\,\%\) | \(q = 1 + t/100\) |
 | Baisse de \(t\,\%\) | \(q = 1 - t/100\) |
 
-### Variation (\(u_0 > 0\))
+### Variation (si u₀ > 0)
 
 \(q > 1\) croissante ; \(0 < q < 1\) décroissante ; \(q = 1\) constante ; \(q < 0\) alternée.
 
@@ -88,7 +88,7 @@ Invariant : après \(k\) tours, `t` vaut \(u_k\).
 
 ## S04 · Intérêts, emprunt et croissance de données
 
-### Formules (taux \(t\) par période, en décimal)
+### Formules (taux t par période, en décimal)
 
 | Objet | Formule |
 |---|---|
@@ -124,7 +124,7 @@ Invariant : après \(k\) tours, `t` vaut \(u_k\).
 | | \(q = 1\) | \(u_0\) |
 | | \(q \le -1\) | aucune |
 
-### Suite affine \(u_{n+1} = au_n + b\) (\(a \ne 1\))
+### Suite affine uₙ₊₁ = a·uₙ + b (avec a ≠ 1)
 
 | Objet | Formule |
 |---|---|
