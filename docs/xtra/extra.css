@@ -296,3 +296,25 @@ html.projection .side-toggle { display: none; }
 .md-header__button.home-general svg { flex: none; }
 @media screen and (max-width: 59.9375em) { .home-general__txt { display: none; } .md-header__button.home-general { padding: .2rem; } }
 @media print { .md-header__button.home-general { display: none; } }
+/* Schémas de manuel (SVG intégrés) : classes génériques */
+.diagramme { --g-ok:#e3f4e6; --g-ok-stroke:#2e7d32; --g-warn:#fff3d6; --g-warn-stroke:#e08a00; --g-bad:#fde3e3; --g-bad-stroke:#c62828; }
+[data-md-color-scheme="slate"] .diagramme { --g-ok:#1f3a27; --g-ok-stroke:#81c784; --g-warn:#43361a; --g-warn-stroke:#ffb74d; --g-bad:#43201f; --g-bad-stroke:#ef9a9a; }
+.diagramme .dg-box { fill: var(--g-fill); stroke: var(--g-stroke); stroke-width: 1.6; }
+.diagramme .dg-soft { fill: var(--g-cluster); stroke: var(--g-cluster-stroke); stroke-width: 1.4; }
+.diagramme .dg-ok { fill: var(--g-ok); stroke: var(--g-ok-stroke); stroke-width: 1.6; }
+.diagramme .dg-warn { fill: var(--g-warn); stroke: var(--g-warn-stroke); stroke-width: 1.6; }
+.diagramme .dg-bad { fill: var(--g-bad); stroke: var(--g-bad-stroke); stroke-width: 1.6; }
+.diagramme .dg-dark { fill: var(--g-stroke); stroke: var(--g-stroke); }
+.diagramme text.dg-w { fill: #fff; font-weight: 700; }
+[data-md-color-scheme="slate"] .diagramme text.dg-w { fill: #12122a; }
+.diagramme .dg-t { font-weight: 700; }
+.diagramme .dg-s { font-size: 12px; }
+.diagramme .dg-i { font-style: italic; font-size: 12px; }
+.diagramme .dg-line { stroke: var(--g-line); stroke-width: 2; fill: none; }
+.diagramme .dg-dash { stroke: var(--g-cluster-stroke); stroke-width: 1.4; stroke-dasharray: 5 4; fill: none; }
+.diagramme .dg-ah { fill: var(--g-line); }
+
+/* Schémas de manuel : palette de base (thème clair et sombre) */
+.diagramme { --g-fill:#e8eaf6; --g-stroke:#3f51b5; --g-line:#5c6bc0; --g-cluster:#f5f6fc; --g-cluster-stroke:#9fa8da; --g-text:#1a1a2e; }
+[data-md-color-scheme="slate"] .diagramme { --g-fill:#2a2f55; --g-stroke:#8c9eff; --g-line:#9fa8da; --g-cluster:#1f2340; --g-cluster-stroke:#5c6bc0; --g-text:#e8eaf6; }
+.diagramme text { fill: var(--g-text); }
