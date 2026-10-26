@@ -17,7 +17,7 @@
 | Hausse de \(t\,\%\) | \(q = 1 + t/100\) |
 | Baisse de \(t\,\%\) | \(q = 1 - t/100\) |
 
-## Variation (\(u_0 > 0\))
+## Variation (si u₀ > 0)
 
 \(q > 1\) croissante ; \(0 < q < 1\) décroissante ; \(q = 1\) constante ; \(q < 0\) alternée.
 

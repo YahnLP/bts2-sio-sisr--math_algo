@@ -14,7 +14,7 @@
 | | \(q = 1\) | \(u_0\) |
 | | \(q \le -1\) | aucune |
 
-## Suite affine \(u_{n+1} = au_n + b\) (\(a \ne 1\))
+## Suite affine uₙ₊₁ = a·uₙ + b (avec a ≠ 1)
 
 | Objet | Formule |
 |---|---|
