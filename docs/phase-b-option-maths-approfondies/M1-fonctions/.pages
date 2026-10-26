@@ -1,4 +1,5 @@
 title: "M1 – Fonction d'une variable réelle"
 nav:
-  - 01-synthese.md
-  - 02-exercices.md
+  - 01-fonctions-et-modeles.md
+  - 02-exponentielle-et-logarithme.md
+  - 03-exercices.md

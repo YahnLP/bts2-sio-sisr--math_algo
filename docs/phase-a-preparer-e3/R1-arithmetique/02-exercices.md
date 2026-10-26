@@ -121,7 +121,7 @@ Sur 8 bits non signés : \(0\) à \(2^8 - 1 = 255\). \(200 = 11001000_2\) et \(1
 
 </details>
 
-### Exercice 9 – Multiples modulo \(n\)
+### Exercice 9 – Multiples modulo n
 
 Un tourniquet à 12 positions est avancé de 8 positions à chaque impulsion.
 
